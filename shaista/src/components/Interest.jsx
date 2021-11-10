@@ -5,12 +5,12 @@ import { data1 } from "./fetch";
 
 const Interest = (() => {
   const [data, setData] = useState([]);
- const [isActive, setIsActive] = useState({})
+  const [count, setIsCount] = useState(1)
 
   const getData = async () => {
     data1.get('/')
       .then(response => {
-       // console.log(response);
+
         const out = response.data;
         setData(out);
       });
@@ -19,26 +19,35 @@ const Interest = (() => {
     getData();
   }, []);
 
-  // const select1 = (value) => {
-  //    var x = document.querySelector('.cls1');
-  //      x.style.display="block";
-  // }
 
-  for(let i = 0; i < data.length; i++) {
-    isActive[`select${i+1}`] = false
+  const select1 = (e) => {
+    var target = `${e.target.id}`;
+
+
+    var x = document.querySelector(`.cls${target}`);
+    x.style.display = "block";
+    setIsCount(count + 1);
+    console.log(count);
+    if (count === 1) {
+      var y = document.querySelector(".sele")
+      y.innerHTML = "Pick any 3 to continue"
+      y.style.color = "red"
+    } else if (count === 2) {
+      var z = document.querySelector(".sele")
+      z.innerHTML = "Pick any 2 to continue"
+      z.style.color = "red"
+    } else if (count === 3) {
+      var k = document.querySelector(".sele")
+      k.innerHTML = "Pick any 1 to continue"
+      k.style.color = "red"
+    } else if (count === 4) {
+      var m = document.querySelector(".sele")
+      m.innerHTML = "4 Selected"
+      m.style.color = "black"
+      var l = document.querySelector(".btn")
+      l.style.background = "#1A8279"
     }
 
-
-  // console.log('isActive obj',isActive)
-
-    const select1 = (e) => {
-    var target = `${e.target.id}`;
-    console.log('target',target)
-    Object.keys(isActive).forEach((key) => {
-      isActive[key] = false;
-    });
-    isActive[`select${target}`] = true;
-    setIsActive({ ...isActive });
   }
 
   return (
@@ -55,14 +64,23 @@ const Interest = (() => {
         {data.map((item) => (
           <div key={item.id}>
 
-            <img className="cat" src={item.img} alt="ima" onClick={select1} id={item.id} role="button"  />
+            <img className="cat" src={item.img} alt="ima" onClick={select1} id={item.id} role="button" />
             <div className={item.textcls}>{item.text}</div>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"  className={item.selectcls}>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={item.selectcls}>
               <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               <path d="M7.75 12L10.58 14.83L16.25 9.17004" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
+
           </div>
         ))}
+        <button className="btn"><div><div className="top">Continue </div>  <div className="top1">
+         <svg width="24" height="28" viewBox="0 0 24 24" fill="none"  xmlns="http://www.w3.org/2000/svg">
+          <path d="M14.43 5.93005L20.5 12.0001L14.43 18.0701" stroke="white" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" className="top" />
+          <path d="M3.5 12H20.33" stroke="white" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"  />
+        </svg>
+        
+        </div>
+        </div> </button>
       </div>
     </>
   )
