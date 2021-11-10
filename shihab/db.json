@@ -1,0 +1,279 @@
+{
+  "attraction-to-visit": [
+    {
+      "id": 1,
+      "title": "Solang Valley",
+      "location": "Burwa, Manali",
+      "star": 4,
+      "timing": "8am - 6pm, everyday",
+      "entryFee": "1500",
+      "image": "https://images.thrillophilia.com/image/upload/s--R_5p2jln--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/195/455/original/1596181106_solang.jpg.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Rohtang Pass",
+      "location": "vapi,valsad",
+      "star": 3,
+      "timing": "8am - 6pm, everyday",
+      "entryFee": "2500",
+      "image": "https://images.thrillophilia.com/image/upload/s--Q9nzEkog--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/195/451/original/1596180466_md-javed-akhtar-PrLNjOy9Ot4-unsplash.jpg.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Kullu",
+      "location": "Burwa, Manali",
+      "star": 5,
+      "timing": "8am - 6pm, everyday",
+      "entryFee": "2500",
+      "image": "https://images.thrillophilia.com/image/upload/s--JkN2SGaO--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/175/399/original/1596180543_abhishek-donda-cGbd2jZvSvA-unsplash.jpg.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Shimla",
+      "location": "Burwa, Manali",
+      "star": 5,
+      "timing": "8am - 6pm, everyday",
+      "entryFee": "3500",
+      "image": "https://images.thrillophilia.com/image/upload/s--PxUAaVqw--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/175/397/original/1596180593_akhil-verma-MTHDC2LrYJI-unsplash.jpg.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Hampta Pass",
+      "location": "Burwa, Manali",
+      "star": 2,
+      "timing": "8am - 6pm, everyday",
+      "entryFee": "5500",
+      "image": "https://images.thrillophilia.com/image/upload/s--zmgijM4A--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/175/404/original/1596180873_hampta3_%281%29.jpg.jpg"
+    }
+  ],
+  "try-Activities": [
+    {
+      "id": 1,
+      "title": "Experience Paragliding",
+      "location": "Burwa, Manali",
+      "star": 4,
+      "timing": "8am - 6pm, everyday",
+      "entryFee": "1500",
+      "image": "https://images.thrillophilia.com/image/upload/s--JKVEBq_e--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/128/240/original/1526545396_shutterstock_633164246.jpg.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Visit Hidimba Devi Temple",
+      "location": "Burwa, Manali",
+      "star": 5,
+      "timing": "8am - 6pm, everyday",
+      "entryFee": "None",
+      "image": "https://images.thrillophilia.com/image/upload/s--EP-406yL--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/078/637/original/1550124727_shutterstock_1087070939.jpg.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Rafting",
+      "location": "Burwa, Manali",
+      "star": 5,
+      "timing": "8am - 6pm, everyday",
+      "entryFee": "1000",
+      "image": "https://images.thrillophilia.com/image/upload/s--r12Wq6pF--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/078/628/original/1526551971_shutterstock_574828768.jpg.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Head to Rohtang Pass",
+      "location": "Burwa, Manali",
+      "star": 5,
+      "timing": "8am - 6pm, everyday",
+      "entryFee": "none",
+      "image": "https://images.thrillophilia.com/image/upload/s--BXYNWeHX--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/128/241/original/1526545535_1526483098_shutterstock_783141427.jpg.jpg.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Stroll at Mall Road",
+      "location": "Burwa, Manali",
+      "star": 2,
+      "timing": "8am - 6pm, everyday",
+      "entryFee": "None",
+      "image": "https://images.thrillophilia.com/image/upload/s--VAOQlD3F--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/173/873/original/1596521353_1596177577_shutterstock-1047879634.jpg.jpg.jpg"
+    }
+  ],
+  "places-to-live": [
+    {
+      "id": 1,
+      "title": " Hadimba Temple",
+      "location": "Burwa, Manali",
+      "star": 4,
+      "type": "hotel",
+      "entryFee": "1500",
+      "image": "https://www.fabhotels.com/blog/wp-content/uploads/2019/03/Hadimba-Temple.jpg"
+    },
+    {
+      "id": 2,
+      "title": "SK Temple",
+      "location": "Burwa, Manali",
+      "star": 5,
+      "type": "hostel",
+      "entryFee": "500",
+      "image": "https://www.fabhotels.com/blog/wp-content/uploads/2019/03/Museum-of-Himachal-Culture-and-Folk-Art.jpg"
+    },
+    {
+      "id": 3,
+      "title": "old manali",
+      "location": "Burwa, Manali",
+      "star": 5,
+      "type": "dorms",
+      "entryFee": "1000",
+      "image": "https://www.fabhotels.com/blog/wp-content/uploads/2019/03/Old-Manali.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Naggar Castel",
+      "location": "Burwa, Manali",
+      "star": 5,
+      "type": "hotel",
+      "entryFee": "900",
+      "image": "https://www.fabhotels.com/blog/wp-content/uploads/2019/03/Naggar-Castle.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Stroll at Mall Road",
+      "location": "Burwa, Manali",
+      "star": 2,
+      "type": "hostel",
+      "entryFee": "500",
+      "image": "https://www.fabhotels.com/blog/wp-content/uploads/2019/03/Old-Manali.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Mall Road",
+      "location": "Burwa, Manali",
+      "star": 2,
+      "type": "dorms",
+      "entryFee": "600",
+      "image": "https://www.fabhotels.com/blog/wp-content/uploads/2019/03/The-Manali-Gompa.jpg"
+    }
+  ],
+
+  "Foods": [
+    {
+      "id": 1,
+      "title": "Chicken Makhani ",
+      "location": "Burwa, Manali",
+      "star": 4,
+      "type": "Indian | Italian | chinese",
+      "entryFee": "500",
+      "image": "https://www.blueosa.com/wp-content/uploads/2020/07/butter-chicken-Chicken-Makhani.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Samosas",
+      "location": "Burwa, Manali",
+      "star": 5,
+      "type": "Indian | Italian",
+      "entryFee": "100",
+      "image": "https://www.blueosa.com/wp-content/uploads/2020/07/top-10-indian-dishes-samosas.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Aloo Gobi",
+      "location": "Burwa, Manali",
+      "star": 5,
+      "type": "Indian,Italian",
+      "entryFee": "1000",
+      "image": "https://www.blueosa.com/wp-content/uploads/2020/07/Indian-Cauliflower-Potatoe.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Matar Paneer",
+      "location": "Burwa, Manali",
+      "star": 5,
+      "type": "Indian,Italian",
+      "entryFee": "500",
+      "image": "https://www.blueosa.com/wp-content/uploads/2020/07/Matar-Paneer-Peas-and-Cooked-Cottage-Cheese.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Rogan Josh",
+      "location": "Burwa, Manali",
+      "star": 2,
+      "type": "Indian,Italian",
+      "entryFee": "None",
+      "image": "https://www.blueosa.com/wp-content/uploads/2020/07/curried-meat-Indian-dshes.jpg"
+    }
+  ],
+
+  "location": [
+    {
+      "id": 1,
+      "title": "Manali",
+      "location": "Himachal Pradesh",
+      "safe": 85,
+      "tempreture":10,
+      "vaccinated": 78,
+      "fullDetails": "Manali is a high-altitude Himalayan resort town in India’s northern Himachal Pradesh state. It has a reputation as a ba...."
+    },
+    {
+      "id": 2,
+      "title": "Goa",
+      "location": "Goa, India",
+      "safe": 75,
+      "tempreture":25,
+      "vaccinated": 98,
+      "fullDetails": "East meets West in this sun-soaked state, where Indian culture intertwines with Portuguese influences left over from a 500-year occupation. The beaches have long served as a magnet for serene hedonists. To the north, the tourist-centric scene is"
+    },
+    {
+      "id": 3,
+      "title": "Kerala",
+      "location": "Kerla, India",
+      "safe": 55,
+      "tempreture":33,
+      "vaccinated": 55,
+      "fullDetails": "To all the nature lovers out there. A trip to God’s own country is a must in your twenties for its enchanting wilderness. Luscious green trees, pristine water, crazy wildlife experience – visit Kerala for more such wonderful delights."
+    }
+  ],
+  "includedAttraction": [
+    {
+      "id": 1,
+      "title": "Solang Valley",
+      "location": "Burwa, Manali",
+      "star":5,
+      "image": "https://images.thrillophilia.com/image/upload/s--R_5p2jln--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/195/455/original/1596181106_solang.jpg.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Kullu",
+      "location": "Burwa, Manali",
+      "star": 5,
+      "image": "https://images.thrillophilia.com/image/upload/s--PxUAaVqw--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/175/397/original/1596180593_akhil-verma-MTHDC2LrYJI-unsplash.jpg.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Hampta Pass",
+      "location": "Burwa, Manali",
+      "star": 2,
+      "image": "https://images.thrillophilia.com/image/upload/s--zmgijM4A--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/175/404/original/1596180873_hampta3_%281%29.jpg.jpg"
+    }
+  ],
+  "includedActivities": [
+    {
+      "id": 1,
+      "title": "Paragliding",
+      "location": "Burwa, Manali",
+      "star": 4,
+      "image": "https://images.thrillophilia.com/image/upload/s--JKVEBq_e--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/128/240/original/1526545396_shutterstock_633164246.jpg.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Rafting",
+      "location": "Burwa, Manali",
+      "star": 5,
+      "image": "https://images.thrillophilia.com/image/upload/s--r12Wq6pF--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/078/628/original/1526551971_shutterstock_574828768.jpg.jpg"
+    }
+  ],
+  "includedLivePlace": [
+    {
+      "id":1,
+      "title": " Hadimba Temple",
+      "location": "Burwa, Manali",
+      "star": 4,
+      "type": "hotel",
+      "image": "https://www.fabhotels.com/blog/wp-content/uploads/2019/03/Hadimba-Temple.jpg"
+    }
+  ]
+}
