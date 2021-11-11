@@ -273,7 +273,50 @@
       "location": "Burwa, Manali",
       "star": 4,
       "type": "hotel",
-      "image": "https://www.fabhotels.com/blog/wp-content/uploads/2019/03/Hadimba-Temple.jpg"
+      "image": "https://www.fabhotels.com/blog/wp-content/uploads/2019/03/Hadimba-Temple.jpg",
+      "rates":500
+    }
+  ],
+
+  "reservation": [
+    {
+      "id":1,
+      "pickupLocation": " Howrah",
+      "pickupTime":"6:30 am",
+      "dropLocation": "Bilaspur",
+      "dropTime":"2:30 pm",
+      "types": "Train Ticket",
+      "rates":"255",
+      "image": "https://images.unsplash.com/photo-1442570468985-f63ed5de9086?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8dHJhaW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id":2,
+      "pickupLocation": "Bilaspur",
+      "pickupTime":"6:30 am",
+      "dropLocation": "CHD",
+      "dropTime":"2:30 pm",
+      "types": "Bus Ticket",
+      "rates":"255",
+      "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YnVzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id":3,
+      "pickupLocation": "CHD",
+      "pickupTime":"6:30 am",
+      "dropLocation": "Manali",
+      "dropTime":"2:30 pm",
+      "types": "Bus Ticket",
+      "rates":"255",
+      "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YnVzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id":4,
+      "title": " Hadimba Temple",
+      "location": "Burwa, Manali",
+      "star": 4,
+      "types": "hostel Booking",
+      "image": "https://www.fabhotels.com/blog/wp-content/uploads/2019/03/Hadimba-Temple.jpg",
+      "rates":500
     }
   ]
 }

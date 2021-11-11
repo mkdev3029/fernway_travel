@@ -15,7 +15,7 @@ import seeMores from './icons/seeMores.svg';
 import Card from "../card/Card";
 import ActivitiesCard from '../ActivitiesCard/ActivitiesCard'
 import axios from "axios";
-// import { Link,Router,Route } from 'react-router-dom';
+// import { Switch ,Route } from 'react-router-dom';
 
 const Active = () => {
     const [activate, setActivate] = useState("");
@@ -169,7 +169,7 @@ const Active = () => {
                                     </div>
                                     <p className="title-description">{el.fullDetails}</p>
 
-
+                                    <button className="trip-btn">Plan a Trip -> </button>
                                 </div>
                                 <div className="center">
                                 {/* <Router>  */}
