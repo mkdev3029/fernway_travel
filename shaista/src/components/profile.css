@@ -1,0 +1,322 @@
+
+.head1{
+position: absolute;
+width: 154px;
+height: 36px;
+left: 16px;
+top: 333px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+color: #807F7F;
+}
+.head2{
+/* Bookings */
+
+
+position: absolute;
+width: 111px;
+height: 36px;
+left: 16px;
+top: 577px;
+
+/* Heading 3 */
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+
+/* Secondary 2 */
+
+color: #807F7F;
+}
+.p1{
+    
+position: absolute;
+width: 111px;
+height: 20px;
+left: 56px;
+top: 403px;
+
+/* Text Field form */
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 20px;
+/* identical to box height, or 111% */
+
+letter-spacing: 0.04em;
+
+/* Secondary 02 */
+
+color: #505050;
+
+}
+.p2{
+    
+position: absolute;
+width: 200px;
+height: 20px;
+left: 56px;
+top: 459px;
+
+/* Text Field form */
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 20px;
+/* identical to box height, or 111% */
+
+letter-spacing: 0.04em;
+
+/* Secondary 02 */
+
+color: #505050;
+
+}
+.p3{
+/* Safety Guidelines */
+
+
+position: absolute;
+width: 168px;
+height: 20px;
+left: 56px;
+top: 515px;
+
+/* Text Field form */
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 20px;
+/* identical to box height, or 111% */
+
+letter-spacing: 0.04em;
+
+/* Secondary 02 */
+
+color: #505050;
+}
+.p4{
+    position: absolute;
+width: 145px;
+height: 20px;
+left: 56px;
+top: 647px;
+
+/* Text Field form */
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 20px;
+/* identical to box height, or 111% */
+
+letter-spacing: 0.04em;
+
+/* Secondary 02 */
+
+color: #505050;
+
+}
+.bell{
+   position:absolute;
+  margin-top: 150px;
+  margin-left: 4.5%;
+}
+.save{
+  position: absolute ;
+  margin-top: 203px;
+  margin-left: 4.5%;
+}
+.safe{
+ position: absolute ;
+  margin-top: 258px;
+  margin-left: 5%;
+}
+.hostel{
+ position: absolute ;
+  margin-top: 390px;
+  margin-left: 5%;
+}
+.p5{
+    position: absolute;
+width: 57px;
+height: 20px;
+left: 16px;
+top: 700px;
+
+/* Text Field form */
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 20px;
+/* identical to box height, or 111% */
+
+letter-spacing: 0.04em;
+
+/* Secondary 02 */
+
+color: #505050;
+
+}
+
+.p6{
+    position: absolute;
+width: 137px;
+height: 20px;
+left: 16px;
+top: 740px;
+
+/* Text Field form */
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 20px;
+/* identical to box height, or 111% */
+
+letter-spacing: 0.04em;
+
+/* Secondary 02 */
+
+color: #505050;
+}
+.p7{
+    /* Log out */
+
+
+position: absolute;
+width: 100px;
+height: 20px;
+left: 16px;
+top: 860px;
+
+/* Text Field form */
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 20px;
+/* identical to box height, or 111% */
+
+letter-spacing: 0.04em;
+
+/* Secondary 02 */
+
+color: #505050;
+}
+.flt1{
+    position: absolute;
+left: 94%;
+right: 33.3%;
+top: 47%;
+bottom: 17%;
+
+/* Secondary 2 */
+
+}
+.flt2{
+    position: absolute;
+left: 94%;
+right: 33.3%;
+top: 53%;
+bottom: 17%;
+
+/* Secondary 2 */
+
+}
+.flt3{
+    position: absolute;
+left: 94%;
+right: 33.3%;
+top: 59%;
+bottom: 17%;
+
+/* Secondary 2 */
+
+}
+.flt4{
+    position: absolute;
+left: 94%;
+right: 33.3%;
+top: 74.5%;
+bottom: 17%;
+
+/* Secondary 2 */
+
+}
+.flt5{
+    position: absolute;
+left: 94%;
+right: 33.3%;
+
+bottom: 17%;
+
+/* Secondary 2 */
+
+}
+.flt6{
+    position: absolute;
+left: 94%;
+right: 33.3%;
+top: 86%;
+bottom: 17%;
+
+/* Secondary 2 */
+
+}
+.nav-bar {
+  display: flex;
+  margin-top: 525px;
+  margin-bottom: 8px;
+  justify-content: space-between;
+
+}
+
+.nav-items {
+  width: 64px;
+  height: 54px;
+  border: none;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 2.67px;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.nav-items p:nth-child(2) {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #505050;
+}
+
+.active {
+  background-color: #1a8279;
+}

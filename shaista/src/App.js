@@ -1,9 +1,11 @@
-import { Interest } from "./components/Interest";
+//import { Interest } from "./components/Interest";
 //import {Access} from "./components/Access"
+import {Profile} from "./components/Profile"
 function App(){
   return (
     <>
-   <Interest></Interest>
+   {/* <Interest></Interest> */}
+   <Profile></Profile>
     </>
 
 
