@@ -178,7 +178,7 @@ button {
     height: 280px;
     width: 283px;
     border-radius: 16px;
-    margin: 3% 0% 0 3%;
+    margin: 3% 0% 5% 3%;
     box-shadow: 5px 4px 20px 5px rgba(0, 0, 0, 0.16);
     border: 1px solid rgb(238, 211, 211);
   }
@@ -451,14 +451,15 @@ button {
   .trip-btn{
     height: 56px;
     width: 382px;
-    left: 16px;
-    top: 784px;
+    left: 0px;
+    top: 70%;
     border-radius: 16px;
     background: #1A8279;
     box-shadow: 0px 1px 8px rgba(73, 73, 73, 0.24);
     border-radius: 16px;
     color: #ffffff;
     margin: 5% 3% 0% 4%;
+    position:fixed;
   }
   .card-food-price{
     margin: 6% 0% 0 0%;
@@ -675,7 +676,7 @@ button {
   margin-top: 2%;
 }
 
-/* .location-name{
+.location-details{
   font-weight: 550;
   font-size: 16px;
   line-height: 20px;
@@ -683,7 +684,7 @@ button {
   color: #000000;
   margin:5% 2% 2% 20%;
  
-} */
+}
 
 .location-time{
   font-size: 14px;
@@ -779,8 +780,8 @@ margin-left: 3%;
   margin-top: 3%;
 }
 .ticket-card-img{
-  height: 132px;
-  width: 382px;
+  height: 145px;
+  width: 381px;
   left: 0px;
   top: 0px;
   border-radius: 16px;  
@@ -907,7 +908,7 @@ color: #807F7F;
 }
 
 .total-payment-price{
-  margin: 10% 0% 1% 26%;
+  margin: 10% 0% 1% 28%;
   font-size: 21px;
   font-weight: normal;
   line-height: 33px;
@@ -1003,10 +1004,10 @@ color: #807F7F;
   background: #FFFFFF;
   box-shadow: 0px 1.49219px 4.47656px rgba(0, 0, 0, 0.1), 0px 1.49219px 2.98438px rgba(0, 0, 0, 0.06);
   border-radius: 16px;
+  border: 1px solid black;
 }
 
 .loading-title{
-  border: 1px solid black;
   position: absolute;
   width: 315px;
   height: 36px;

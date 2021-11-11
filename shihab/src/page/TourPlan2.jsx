@@ -50,6 +50,8 @@ const TourPlan2 = () => {
                     <button className="edit-detail-btn" >Edit</button>
                 </div>
 
+                <button className="trip-btn">continue -> </button>
+
                 <DayToPlanCard />
 
                 <div className="flex">

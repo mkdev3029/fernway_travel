@@ -1,4 +1,4 @@
-import TourPlan from "./page/TourPlan";
+import TourPlan from "./page/Destination";
 
 function App() {
   return (
