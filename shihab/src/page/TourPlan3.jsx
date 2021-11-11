@@ -20,13 +20,13 @@ const TourPlan3 = () => {
     
     const attractionActive = () => {
         SetreviewShow(true)
-        setNotActivities(notActivities === "hotel-btn" ? "ticket-btn" : "hotel-btn");
+        setNotActivities(notActivities === "hotel-btn" ? "ticket-btn" : "ticket-btn");
         setAttractions(attractions === "ticket-btn" ? "hotel-btn" : "hotel-btn");
     };
 
     const activitiesActives = () => {
         SetreviewShow(false)
-        setAttractions(attractions === "hotel-btn" ? "ticket-btn" : "hotel-btn");
+        setAttractions(attractions === "hotel-btn" ? "ticket-btn" : "ticket-btn");
         setNotActivities(notActivities === "ticket-btn" ? "hotel-btn" : "hotel-btn");
     };
 
@@ -47,7 +47,7 @@ const TourPlan3 = () => {
                 <div className="flex">
                     <p className="big-titles">Reservations</p>
                 </div>
-
+                <button className="trip-btn">Continue -> </button>
                 <div className="flex btn-div">
                     <button onClick={attractionActive} className={attractions}>Ticket Booking</button>
                     <button onClick={activitiesActives} className={notActivities} >Hostel Booking</button>

@@ -17,10 +17,10 @@ const TourPlan = () => {
         backgroundRepeat: "no-repeat",
         background: `linear-gradient(0deg, rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)), url(${imageUrl})`
     };
-//includedActivities
+    //includedActivities
     const [list, setList] = useState([]);
-    const[activitiesList,setActivitiesList] = useState([]);
-    const [hotelList,setHotelList] = useState([]);
+    const [activitiesList, setActivitiesList] = useState([]);
+    const [hotelList, setHotelList] = useState([]);
 
     useEffect(() => {
         axios.get("http://localhost:3004/includedAttraction").then(({ data }) => {
@@ -55,20 +55,21 @@ const TourPlan = () => {
                     Manali is a high-altitude Himalayan resort town in India’s northern Himachal Pradesh state. It has a reputation as a backpacking center and honeymoon destination.
                 </p>
                 <p className="tour-description-2">
-                    Set on the Beas River, it’s a gateway for skiing in the Solang Valley and trekking in Parvati Valley. It's also a jumping-off point for paragliding, rafting and mountaineering in the Pir Panjal mountains, home to 4,000m-high Rohtang Pass.                
+                    Set on the Beas River, it’s a gateway for skiing in the Solang Valley and trekking in Parvati Valley. It's also a jumping-off point for paragliding, rafting and mountaineering in the Pir Panjal mountains, home to 4,000m-high Rohtang Pass.
                 </p>
                 <p className="big-titles">Included Facilities</p>
                 <div className="flex">
-                <img src={train} alt="" className="train-logo" />
-                <img src={car} alt="" className="train-logo" />
-                <img src={hostel} alt="" className="train-logo" />
+                    <img src={train} alt="" className="train-logo" />
+                    <img src={car} alt="" className="train-logo" />
+                    <img src={hostel} alt="" className="train-logo" />
                 </div>
+                <button className="trip-btn">Continue -> </button>
                 <p className="big-titles">Included Attractions ({list.length})</p>
-                <AttractionCard list={list}/>
+                <AttractionCard list={list} />
                 <p className="big-titles">Included Activities ({activitiesList.length})</p>
-                <ActivitiesCard activitiesList={activitiesList}/>
+                <ActivitiesCard activitiesList={activitiesList} />
                 <p className="big-titles">Included Hotel/Hostel/Dorms ({hotelList.length})</p>
-                <HotelCards hotelList={hotelList}/>
+                <HotelCards hotelList={hotelList} />
 
             </div>
         </>
