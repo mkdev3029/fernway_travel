@@ -1,11 +1,12 @@
 //import { Interest } from "./components/Interest";
 //import {Access} from "./components/Access"
-import {Profile} from "./components/Profile"
+//import {Profile} from "./components/Profile"
+import {Payment} from "./components/Payment"
 function App(){
   return (
     <>
    {/* <Interest></Interest> */}
-   <Profile></Profile>
+  <Payment></Payment>
     </>
 
 

@@ -17,7 +17,7 @@ margin-top: 4%;
 }
 .bottom-left1 {
   position: absolute;
-    top:32%;
+  top:32%;
   left: 6.5%;
   font-family: Poppins;
   color: white;
@@ -29,7 +29,7 @@ line-height: 20px;
 
 .bottom-left2 {
   position: absolute;
-    top:32%;
+  top:32%;
   left: 56%;
   color: white;
   font-family: Poppins;
@@ -222,42 +222,23 @@ border-radius: 16px;
 }
 .btn{
   position: fixed;
-width: 382px;
-height: 56px;
-left: 16px;
-top: 700px;
-
-/* Primary 01 */
-background: #ACD2CF;
-
-/* Button Shadow background: #1A8279; */
-
-box-shadow: 0px 1px 8px rgba(73, 73, 73, 0.24);
-border-radius: 16px;
-
-
-
-
-/* Button 1 */
-
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 40px;
-/* identical to box height, or 111% */
-
-
-align-items: center;
-text-align: center;
-letter-spacing: 0.04em;
--ms-flex-align: center;
-color: #FFFFFF;
-
-
-/* Inside Auto Layout */
-
-
+  width: 382px;
+  height: 56px;
+  left: 16px;
+  top: 700px;
+  background: #ACD2CF;
+  box-shadow: 0px 1px 8px rgba(73, 73, 73, 0.24);
+  border-radius: 16px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 40px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  -ms-flex-align: center;
+  color: #FFFFFF;
 }
 
 .top{
