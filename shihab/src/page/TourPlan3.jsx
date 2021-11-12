@@ -2,6 +2,7 @@ import "../components/styles/style.css";
 import React, { useState } from "react";
 import TicketBooking from '../components/TicketBooking/TicketBooking'
 import HotelBookingCard from '../components/HotelBookingCard/HotelBookingCard'
+import { Link } from "react-router-dom";
 
 const TourPlan3 = () => {
 
@@ -17,7 +18,7 @@ const TourPlan3 = () => {
     const [attractions, setAttractions] = useState("hotel-btn");
     const [notActivities, setNotActivities] = useState("ticket-btn");
     const [reviewShow, SetreviewShow] = useState(true)
-    
+
     const attractionActive = () => {
         SetreviewShow(true)
         setNotActivities(notActivities === "hotel-btn" ? "ticket-btn" : "ticket-btn");
@@ -32,6 +33,10 @@ const TourPlan3 = () => {
 
     return (
         <>
+
+            <Link to={`/tourplan/day-to-day-plan/reservation/Payment`}>
+                <button className="trip-btn">Continue -> </button>
+            </Link>
             <div className="wrapper" style={jsx}></div>
             <div className="flex" style={{ marginBottom: "5%" }}>
                 <div className="move-top">
@@ -47,23 +52,23 @@ const TourPlan3 = () => {
                 <div className="flex">
                     <p className="big-titles">Reservations</p>
                 </div>
-                <button className="trip-btn">Continue -> </button>
+
                 <div className="flex btn-div">
                     <button onClick={attractionActive} className={attractions}>Ticket Booking</button>
                     <button onClick={activitiesActives} className={notActivities} >Hostel Booking</button>
                 </div>
                 {reviewShow ?
                     <div className="attractionShow">
-                          <TicketBooking />
+                        <TicketBooking />
                     </div>
                     :
                     <div className="activitiesShow">
-                      <HotelBookingCard />
+                        <HotelBookingCard />
                     </div>
 
                 }
 
-           
+
             </div>
         </>
     )
