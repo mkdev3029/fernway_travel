@@ -3,9 +3,11 @@ import Day from '../components/icon/Day.svg';
 //import React, { useState } from "react";
 import DayToPlanCard from '../components/DayToPlanCard/DayToPlanCard'
 import { Link } from "react-router-dom";
+import { useParams } from "react-router";
 
 const TourPlan2 = () => {
-
+    const para = useParams();
+console.log(para);
     const imageUrl =
         "https://images.unsplash.com/photo-1605649487212-47bdab064df7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80";
 
@@ -23,7 +25,7 @@ const TourPlan2 = () => {
     return (
         <>
             <Link to={`/tourplan/day-to-day-plan/reservation`}>
-                <button className="trip-btn">Continue -> </button>
+                <button className="trip-btn">Continue 	&#8594; </button>
             </Link>
             <div className="wrapper" style={jsx}></div>
             <div className="flex" style={{marginBottom:"5%"}}>

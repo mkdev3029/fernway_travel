@@ -1,12 +1,16 @@
-import train from '../icon/Train.svg';
+// import train from '../icon/Train.svg';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 
 const TicketBooking = () => {
-    const [list, setList] = useState([]);
+    const [list, setList] = useState([]);       // setList([...data])
 
     useEffect(() => {
-        axios.get("http://localhost:3004/reservation").then(({ data }) => {
+        axios.get("http://localhost:3004/reservation", {
+            params: {
+                types: ["Bus Ticket","Car Ticket","Train Ticket"]     //mention location here
+            }
+        }).then(({ data }) => {
             setList([...data])
         })
     }, [])
@@ -23,8 +27,8 @@ const TicketBooking = () => {
                                 <p className="location-time">{el.pickupTime}</p>
                             </div>
                             <div className="card-vehicle-logo">
-                                <img src={train} alt="" className="location-vehicle-logos" />
-                                <p className="location-vehicle-details" >Train</p>
+                                {/* <img src={train} alt="" className="location-vehicle-logos" /> */}
+                                {/* <p className="location-vehicle-details" >Train</p> */}
                             </div>
                             <div className="card-from-location">
                                 <p className="location-details">{el.dropLocation}</p>
