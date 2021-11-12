@@ -13,6 +13,7 @@ const PaymentSucsessful = () => {
             <div className="loading"></div>
             <div className="loading"></div>
             </div>
+            
         </div>
     )
 }

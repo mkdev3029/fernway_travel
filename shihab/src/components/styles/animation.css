@@ -1,6 +1,6 @@
 .loading-center{
-  width: 500px;
-  height: 500px;
+  width: 200px;
+  height: 100px;
   display: flex;
   margin-left: -6%;
 }
@@ -10,6 +10,7 @@
     background: rgba(26, 130, 121, 0.48);
     margin-left: 0.875rem;
     animation: bar-loading 1s infinite alternate;
+    
   }
   
   .loading:nth-child(2) {

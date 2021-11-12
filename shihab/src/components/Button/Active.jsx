@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Slider from "../slider/Slider";
 import ReviewAttraction from "../review/ReviewAttraction";
 import ReviewActivities from '../review/ReviewActivities'
 import FilterComponent from '../FilterComponent/FilterComponent'
@@ -15,7 +16,8 @@ import seeMores from './icons/seeMores.svg';
 import Card from "../card/Card";
 import ActivitiesCard from '../ActivitiesCard/ActivitiesCard'
 import axios from "axios";
-// import { Switch ,Route } from 'react-router-dom';
+import { Link } from "react-router-dom";
+
 
 const Active = () => {
     const [activate, setActivate] = useState("");
@@ -118,94 +120,103 @@ const Active = () => {
             setLocations([...data])
         })
     }, [])
-
+    console.log(locations);
 
     return (
-        <div className='header'>
-            <div className="block">
-                <button onClick={toggleActive} className={activate}>About</button>
-                <button onClick={toggleActives} className={Notactivate}>Accommodation</button>
-                {
-                    show ?
-                        <div className="abouts-tab">
-                            <div className="flex">
-                                <h2 className="titles">Places to live</h2>
-                                <p className="place-See-more">See more  <img src={seeMores} alt="" className="place-See-more-icon" /></p>
-                            </div>
-                            <div className="flex fielter-div">
-                                <button className={filterActive} onClick={() => filterShow()} >All</button>
-                                <button className={filterActive1} onClick={() => filterShow1("hotel")}  >Hotels</button>
-                                <button className={filterActive2} onClick={() => filterShow2("hostel")} >Hostels</button>
-                                <button className={filterActive3} onClick={() => filterShow3("dorms")} >Dorms</button>
-                            </div>
-                            <FilterComponent list={list} />
-                            <button className="trip-btn">Plan a Trip -> </button>
-                            <FoodCard />
-                        </div>
+        <>
+            <Link to={`/tourplan`}>
+                <button className="trip-btn">Plan a Trip -> </button>
+            </Link>
+          
+                    <Slider />
+                    <div className='header'>
+                        <div className="block">
+                            <button onClick={toggleActive} className={activate}>About</button>
+                            <button onClick={toggleActives} className={Notactivate}>Accommodation</button>
+                            {
+                                show ?
+                                    <div className="abouts-tab">
+                                        <div className="flex">
+                                            <h2 className="titles">Places to live</h2>
+                                            <p className="place-See-more">See more  <img src={seeMores} alt="" className="place-See-more-icon" /></p>
+                                        </div>
+                                        <div className="flex fielter-div">
+                                            <button className={filterActive} onClick={() => filterShow()} >All</button>
+                                            <button className={filterActive1} onClick={() => filterShow1("hotel")}  >Hotels</button>
+                                            <button className={filterActive2} onClick={() => filterShow2("hostel")} >Hostels</button>
+                                            <button className={filterActive3} onClick={() => filterShow3("dorms")} >Dorms</button>
+                                        </div>
+                                        <FilterComponent list={list} />
 
-                        :
-                        locations.map((el) =>
-                            <div className="accommodation-tab">
-                                <div key={el.id}>
-                                    <div className="flex">
-                                        <h2 className="titles">{el.title}</h2>
-                                        <img src={bookmark} alt="" className="bookmark-logo" />
-                                    </div>
-                                    <div className="location-div">
-                                        <img src={location} alt="" className="location-logo" />
-                                        <p className="location-name">{el.location}</p>
-                                    </div>
-                                    <div className="flex">
-                                        <img src={wind} alt="" className="wind-logo" />
-                                        <img src={snowflake} alt="" className="snowflake-logo" />
-                                        <span className="celcius-logo">{el.tempreture}&#8451;</span>
-                                        <img src={bell} alt="" className="bell-logo" />
-                                        <p className="safe-logo">{el.safe}% safe</p>
+                                        <FoodCard />
                                     </div>
 
-                                    <div className="flex">
-                                        <img src={vector} alt="" className="vector-logo" />
-                                        <p className="Vaccinated-text">{el.vaccinated}% of People Vaccinated</p>
-                                    </div>
-                                    <p className="title-description">{el.fullDetails}</p>
-
-                                    <button className="trip-btn">Plan a Trip -> </button>
-                                </div>
-                                <div className="center">
-                                {/* <Router>  */}
-                                {/* <Link to={`/src/page/TourPlan.jsx/${el.id}`}> */}
-                                    <p className="See-more">See more <img src={seeMore} alt="" className="See-more" /></p>
-                                {/* </Link>
-                                </Router> */}
-                                </div>
-                                <div className="line"></div>
-                                <p className="attraction-heading">Attractions to visit</p>
-                                <Card />
-                                <div className="flex">
-                                    <p className="attraction-heading">Activities to try</p>
-                                    <p className="Activities-See-mores">See more  <img src={seeMores} alt="" className="Act-See-more" /></p>
-                                </div>
-                                <ActivitiesCard />
-                                <div className="line"></div>
-                                <p className="attraction-heading">Reviews</p>
-                                <div className="flex btn-div">
-                                    <button onClick={attractionActive} className={attractions}>Attractions</button>
-                                    <button onClick={activitiesActives} className={notActivities} >Activities</button>
-                                </div>
-                                {reviewShow ?
-                                    <div className="attractionShow">
-                                        <ReviewAttraction />
-                                    </div>
                                     :
-                                    <div className="activitiesShow">
-                                        <ReviewActivities />
-                                    </div>
-                                }
-                            </div>
-                        )}
-                <br />
-            </div>
-        </div >
+                                    locations.map((el) =>
+                                        <div className="accommodation-tab">
+                                            <div key={el.id}>
+                                                <div className="flex">
+                                                    <h2 className="titles">{el.title}</h2>
+                                                    <img src={bookmark} alt="" className="bookmark-logo" />
+                                                </div>
+                                                <div className="location-div">
+                                                    <img src={location} alt="" className="location-logo" />
+                                                    <p className="location-name">{el.location}</p>
+                                                </div>
+                                                <div className="flex">
+                                                    <img src={wind} alt="" className="wind-logo" />
+                                                    <img src={snowflake} alt="" className="snowflake-logo" />
+                                                    <span className="celcius-logo">{el.tempreture}&#8451;</span>
+                                                    <img src={bell} alt="" className="bell-logo" />
+                                                    <p className="safe-logo">{el.safe}% safe</p>
+                                                </div>
+
+                                                <div className="flex">
+                                                    <img src={vector} alt="" className="vector-logo" />
+                                                    <p className="Vaccinated-text">{el.vaccinated}% of People Vaccinated</p>
+                                                </div>
+                                                <p className="title-description">{el.fullDetails}</p>
+
+
+                                            </div>
+                                            <div className="center">
+                                                {/* <Router>  */}
+                                                {/* <Link to={`/src/page/TourPlan.jsx/${el.id}`}> */}
+                                                <p className="See-more">See more <img src={seeMore} alt="" className="See-more" /></p>
+                                                {/* </Link>
+                                </Router> */}
+                                            </div>
+                                            <div className="line"></div>
+                                            <p className="attraction-heading">Attractions to visit</p>
+                                            <Card />
+                                            <div className="flex">
+                                                <p className="attraction-heading">Activities to try</p>
+                                                <p className="Activities-See-mores">See more  <img src={seeMores} alt="" className="Act-See-more" /></p>
+                                            </div>
+                                            <ActivitiesCard />
+                                            <div className="line"></div>
+                                            <p className="attraction-heading">Reviews</p>
+                                            <div className="flex btn-div">
+                                                <button onClick={attractionActive} className={attractions}>Attractions</button>
+                                                <button onClick={activitiesActives} className={notActivities} >Activities</button>
+                                            </div>
+                                            {reviewShow ?
+                                                <div className="attractionShow">
+                                                    <ReviewAttraction />
+                                                </div>
+                                                :
+                                                <div className="activitiesShow">
+                                                    <ReviewActivities />
+                                                </div>
+                                            }
+                                        </div>
+                                    )}
+                            <br />
+                        </div>
+                    </div >
+               
+               
+        </>
     )
 }
 
