@@ -1,7 +1,8 @@
 import "../components/styles/style.css";
 import Day from '../components/icon/Day.svg';
-import React, { useState } from "react";
+//import React, { useState } from "react";
 import DayToPlanCard from '../components/DayToPlanCard/DayToPlanCard'
+import { Link } from "react-router-dom";
 
 const TourPlan2 = () => {
 
@@ -14,13 +15,16 @@ const TourPlan2 = () => {
         background: `linear-gradient(0deg, rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)), url(${imageUrl})`
     };
 
-    const [daysBtn, setDaysBtn] = useState("daysBtn");
+    //const [daysBtn, setDaysBtn] = useState("daysBtn");
 
-    const filterShow = () => {
-        setDaysBtn(daysBtn === "daysBtn" ? "daysBtnActives" : "daysBtn");
-    }
+    // const filterShow = () => {
+    //     setDaysBtn(daysBtn === "daysBtn" ? "daysBtnActives" : "daysBtn");
+    // }
     return (
         <>
+            <Link to={`/tourplan/day-to-day-plan/reservation`}>
+                <button className="trip-btn">Continue -> </button>
+            </Link>
             <div className="wrapper" style={jsx}></div>
             <div className="flex" style={{marginBottom:"5%"}}>
                 <div className="move-top">
@@ -50,7 +54,7 @@ const TourPlan2 = () => {
                     <button className="edit-detail-btn" >Edit</button>
                 </div>
 
-                <button className="trip-btn">continue -> </button>
+              
 
                 <DayToPlanCard />
 

@@ -4,6 +4,7 @@ import Start from '../components/icon/Start.svg';
 import google from '../components/icon/google.svg';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
+import { Link } from "react-router-dom";
 
 const Payment = () => {
     let total=0;
@@ -27,7 +28,7 @@ const Payment = () => {
     
     return (
         <>
-      
+
         <div>
             <div className="wrapper" style={jsx}></div>
             <div className="flex" style={{ marginBottom: "5%" }}>
@@ -63,6 +64,7 @@ const Payment = () => {
                     <p className="total-payment-price"> {total} </p>
                 </div>
                
+                <Link to="/tourplan/day-to-day-plan/reservation/Payment/PaymentCheck">
                 <div className="paypal-payment-btn">
                     <div className="flex align-center">
                         <img src={paypal} alt="" className="paypal-logo" />
@@ -70,7 +72,9 @@ const Payment = () => {
                         <img src={Start} alt="" className="start-logo" />
                     </div>
                 </div>
+                </Link>
 
+                <Link to="/tourplan/day-to-day-plan/reservation/Payment/PaymentCheck">
                 <div className="google-payment-btn">
                     <div className="flex align-center">
                         <img src={google} alt="" className="paypal-logo" />
@@ -78,6 +82,7 @@ const Payment = () => {
                         <img src={Start} alt="" className="start-logo" />
                     </div>
                 </div>
+                </Link>
 
             </div>
         </div>
