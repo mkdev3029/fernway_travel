@@ -4,13 +4,13 @@ import "../styles/style.css";
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const Card = () => {
+const Card = ({Fetchlocation}) => {
     const [list,setList] = useState([]);
 
     useEffect(() =>{
             axios.get("http://localhost:3004/attraction-to-visit",{
                 params:{
-                    location:"Burwa, Manali"       //mention location here
+                    location: Fetchlocation       //mention location here
                 }
             }).then(({data}) =>{
                 setList([...data])

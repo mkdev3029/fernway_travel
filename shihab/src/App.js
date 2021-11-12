@@ -14,10 +14,11 @@ function App() {
         <Route path="/" exact>
           <Destination />
         </Route>
-        <Route path="/tourplan" exact>
+        <Route path="/tourplan/:locations" exact>
           <TourPlan />
         </Route>
-        <Route path="/tourplan/day-to-day-plan" exact>
+
+        <Route path="/tourplan/:locations/dayplan/:locations" exact>
           <TourPlan2 />
         </Route>
 
