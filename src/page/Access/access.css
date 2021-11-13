@@ -1,0 +1,82 @@
+.gif_access_ss {
+  width: 305px;
+  height: 305px;
+  margin-left: 39px;
+  margin-right: 38px;
+  margin-top: 32px;
+}
+
+.access_ss {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 14px 52px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  position: absolute;
+  width: 216px;
+  height: 48px;
+  left: calc(50% - 216px / 2);
+  top: 538px;
+  background: #1a8279;
+  border-radius: 8px;
+}
+.h_ss {
+  position: absolute;
+  width: 195px;
+  height: 36px;
+  left: 94px;
+  top: 366px;
+
+  /* Heading 3 */
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.p_ss {
+  position: absolute;
+  width: 382px;
+  height: 60px;
+  left: 0px;
+  top: 430px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: rgba(0, 0, 0, 0.6);
+}
+.skip_ss {
+  position: absolute;
+  width: 200px;
+  height: 20px;
+  left: 132px;
+  top: 634px;
+
+  /* Button 1 */
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  /* identical to box height, or 111% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #000000;
+}

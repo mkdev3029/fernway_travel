@@ -1,0 +1,1544 @@
+* {
+  font-family: Poppins;
+  font-style: normal;
+}
+button {
+  background-color: #fff;
+  color: #1a8279;
+  width: 50%;
+  height: 44px;
+  border: none;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #1a8279;
+  color: #ffffff;
+  width: 50%;
+  height: 44px;
+  border: none;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+.titles {
+  width: 250px;
+  height: 40px;
+  margin-left: 3%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+.bookmark-logo {
+  width: fit-content;
+  height: 30px;
+  margin: 2% 0 0 23%;
+  color: #1a8279;
+}
+
+.location-div {
+  display: flex;
+  width: 70%;
+  margin: 0%;
+  padding: 0%;
+}
+.location-logo {
+  width: 13.93px;
+  height: 15px;
+  margin: 1% 0 0 4.5%;
+  color: #1a8279;
+  margin-right: 5px;
+  height: 14.996252059936523px;
+  width: 12.934110641479492px;
+  left: 2.532928466796875px;
+  border-radius: 0px;
+}
+.location-name {
+  margin: 0.5% 0 0 0%;
+  width: fit-content;
+  color: #1a8279;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+}
+
+.wind-logo {
+  width: 24px;
+  height: 24px;
+  margin: 1% 0% 0 3%;
+  color: #1a8279;
+}
+
+.snowflake-logo {
+  width: 24px;
+  height: 24px;
+  margin: 1% 0% 0 1%;
+  color: #1a8279;
+}
+
+.celcius-logo {
+  height: 33px;
+  width: 50px;
+  border-radius: nullpx;
+  margin: 0.5% 0% 0 1%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+}
+
+.bell-logo {
+  width: 24px;
+  height: 24px;
+  margin: 1% 0% 0 34%;
+  color: #1a8279;
+}
+.safe-logo {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 33px;
+  margin: 1% 0% 0 1%;
+}
+
+.vector-logo {
+  width: 25px;
+  font-size: 23px;
+  height: 23px;
+  margin: 5% 0% 0 3%;
+  color: #1a8279;
+}
+.Vaccinated-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 33px;
+  margin: 4.5% 0% 0 2%;
+}
+
+.title-description {
+  height: 84px;
+  width: 380px;
+  font-size: 16px;
+  overflow: hidden;
+  line-height: 28px;
+  color: #807f7f;
+  text-align: left;
+  margin: 4% 0% 2% 3%;
+}
+.center {
+  text-align: center;
+}
+.See-more {
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+
+.line {
+  width: 90%;
+  height: 1%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: #000000;
+  opacity: 90%;
+  margin: 3% 2% 3% 3%;
+}
+
+.attraction-heading {
+  width: fit-content;
+  margin: 5% 0 0% 3%;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.Cards {
+  height: 280px;
+  width: 283px;
+  border-radius: 16px;
+  margin: 3% 0% 5% 3%;
+  box-shadow: 5px 4px 20px 5px rgba(0, 0, 0, 0.16);
+  border: 1px solid rgb(238, 211, 211);
+}
+
+.Card-img {
+  height: 137px;
+  width: 283px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+}
+.star-logo {
+  margin: 6% 0% 0 1%;
+  height: 14.878701210021973px;
+  width: 15.00165843963623px;
+  left: 1.50079345703125px;
+  top: 1.55859375px;
+  border-radius: 0px;
+}
+
+.card-title {
+  font-weight: 550;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #000000;
+  margin: 1% 0% 2% 3%;
+  width: 230px;
+}
+.card-titles {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 3% 0% 0 0%;
+}
+
+.card-location-logo {
+  height: 14.996252059936523px;
+  width: 12.934110641479492px;
+  left: 2.532928466796875px;
+  border-radius: 0px;
+  margin: 0% 0 0 3%;
+}
+
+.card-location-titles {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 550;
+  margin: -0.5% 0 0 2%;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+
+.card-location-time {
+  margin: 2% 0 0 3%;
+  width: fit-content;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+
+.Activities-See-mores {
+  margin: 5.5% 0 0 25%;
+  font-size: 23px;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+
+.Act-See-more {
+  font-size: 23px;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+.btn_attraction {
+  background-color: #ffffff;
+  color: #1a8279;
+  border-radius: 8px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  height: 36px;
+  width: 128px;
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 20px;
+  border: 1px solid #1a8279;
+  margin: 0% 0 0% 3%;
+}
+
+.active2 {
+  margin: 0% 0 0% 3%;
+  background-color: #1a8279;
+  color: #ffffff;
+  border-radius: 8px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  height: 36px;
+  width: 128px;
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.btn_attraction-div {
+  margin-top: 2%;
+}
+
+.attractionShow,
+.activitiesShow {
+  width: 90%;
+  height: fit-content;
+  margin: 3% 0% 0% 3%;
+}
+
+.review {
+  height: 169px;
+  width: 382px;
+  left: 0px;
+  top: 0px;
+  border-radius: 16px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+  margin-bottom: 5%;
+}
+
+.review-photo {
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  margin: 2% 1% 0% 5%;
+}
+
+.reveiew-name {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  font-weight: 550;
+  color: #000000;
+  margin-right: 5px;
+  margin-left: 10px;
+  height: 20px;
+  margin-top: 5%;
+}
+
+.reveiew-base {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #000000;
+  margin-right: 5px;
+  margin-top: 13px;
+  height: 20px;
+}
+.reveiew-location {
+  height: 20px;
+  width: 20px;
+  left: 2.532958984375px;
+  top: 1.5px;
+  border-radius: 0px;
+  margin-right: 2px;
+  margin-top: 5%;
+}
+.reveiew-location-name {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #1a8279;
+  height: 20px;
+  margin-top: 5%;
+}
+
+.review-days {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #000000;
+  width: fit-content;
+  margin-left: 3%;
+  margin-top: 0;
+}
+
+.review-desc-divs {
+  height: 80px;
+  width: 286px;
+  left: 80px;
+  top: 73px;
+  border-radius: nullpx;
+  margin-top: 0;
+}
+.review-desc {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #505050;
+  margin-left: 3%;
+}
+
+.place-See-more {
+  font-size: 23px;
+  font-size: 16px;
+  height: fit-content;
+  letter-spacing: 0.04em;
+  color: #000000;
+  margin: 9% 0 0 8%;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+
+.filter-btn {
+  height: 36px;
+  width: fit-content;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  padding: 8px, 17px, 8px, 17px;
+  border: 1px solid #1a8279;
+  margin-left: 3%;
+}
+.filterActives {
+  height: 36px;
+  width: fit-content;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  padding: 8px, 17px, 8px, 17px;
+  border: 1px solid #1a8279;
+  margin-left: 3%;
+  background-color: #1a8279;
+  color: #ffffff;
+}
+
+.card-hotels-title {
+  font-size: 16px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #000000;
+  font-weight: 550;
+  margin-left: 3%;
+}
+.card-buliding-icon {
+  margin: 0% 2% 0 3%;
+}
+.card-price-btn {
+  height: 42px;
+  width: fit-content;
+  left: 191px;
+  top: 209px;
+  border-radius: 8px;
+  padding: 8px, 8px, 4px, 8px;
+  margin: 4% 0% 0 34%;
+  background-color: #ac3939;
+  color: #ffffff;
+}
+.trip-btn {
+  height: 56px;
+  width: 382px;
+  left: 0px;
+  top: 70%;
+  border-radius: 16px;
+  background: #1a8279;
+  box-shadow: 0px 1px 8px rgba(73, 73, 73, 0.24);
+  border-radius: 16px;
+  color: #ffffff;
+  margin: 5% 3% 0% 4%;
+  position: fixed;
+}
+.card-food-price {
+  margin: 6% 0% 0 0%;
+  font-weight: 550;
+  font-size: 18px;
+  color: #505050;
+}
+
+.card-hotel-title {
+  font-size: 16px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #000000;
+  font-weight: 550;
+  margin-left: 3%;
+  width: 185px;
+}
+
+.card-slider {
+  display: flex;
+  gap: 16px;
+  overflow-x: scroll;
+}
+
+.card-slider::-webkit-scrollbar {
+  display: none;
+}
+
+.wrapper {
+  height: 293px;
+  width: 414px;
+  border-radius: 0px 0px 16px 16px;
+  margin-top: -7%;
+}
+
+.move-top {
+  margin-top: -27%;
+  width: 500px;
+  height: 40px;
+}
+.tour-title {
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  height: 40px;
+  margin: 0% 0% 0% 3%;
+}
+.tour-place-title {
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  margin: 0% 0% 0% 3%;
+}
+
+.tour-days-btn {
+  width: 89px;
+  height: 32px;
+  border-radius: nullpx;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #ac3939;
+  border-radius: 8px;
+}
+.move-top-btn {
+  margin-top: -22%;
+  width: 200px;
+  height: 40px;
+}
+
+.container {
+  width: 100%;
+  height: fit-content;
+  background: #ffffff;
+  border-radius: 16px 16px 16px 0px;
+  margin-top: -12%;
+}
+
+.abouts {
+  font-size: 24px;
+  line-height: 36px;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 550;
+  padding: 6% 0% 0% 3%;
+}
+
+.tour-description {
+  margin: 5% 5% 0% 3%;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.05em;
+  color: #505050;
+}
+
+.tour-description-2 {
+  margin: 0% 5% 0% 3%;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  color: #505050;
+  margin-top: 5%;
+}
+
+.train-logo {
+  width: 32px;
+  height: 44px;
+  margin: 0% 4% 0% 3%;
+}
+
+.big-titles {
+  font-size: 24px;
+  line-height: 36px;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 550;
+  padding: 6% 0% 0% 3%;
+  margin: 0%;
+}
+
+.Attraction-Cards {
+  height: 220px;
+  width: 283px;
+  border-radius: 16px;
+  margin: 3% 0% 0 3%;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.16);
+  border: 1px solid rgba(0, 0, 0, 0.16);
+}
+
+.Attraction-Card-img {
+  height: 137px;
+  width: 283px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+}
+
+.Day-logo {
+  width: 48px;
+  height: 40px;
+  border-radius: 8px;
+  margin-left: 2%;
+  margin-top: 5%;
+}
+
+.daysBtn {
+  width: 80px;
+  height: 58px;
+  border: 1px solid #1a8279;
+  border-radius: 8px;
+  background-color: #1a8279;
+  color: #ffffff;
+  margin: 5% 0% 3% 3%;
+}
+
+.daysBtnActives {
+  width: 80px;
+  height: 58px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #1a8279;
+  border: 1px solid #1a8279;
+  margin: 5% 0% 3% 3%;
+}
+
+.days-no {
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  width: 50px;
+  height: 20px;
+  margin: 10% auto 5%;
+}
+
+.days-date {
+  font-size: 12px;
+  width: 55px;
+  height: 20px;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+  margin: 10% auto 5%;
+}
+
+.plan-card {
+  height: 189px;
+  width: 382px;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.16);
+  border: 1px solid rgb(238, 211, 211);
+  margin: 5% auto 2% auto;
+}
+
+.plan-Card-img {
+  height: 97px;
+  width: 382px;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.card-from-location {
+  width: 40%;
+  padding: 0%;
+  margin-top: 2%;
+}
+
+.card-vehicle-logo {
+  width: 20%;
+  padding: 0%;
+  margin: 0%;
+  margin-top: 2%;
+}
+
+.location-details {
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #000000;
+  margin: 5% 2% 2% 20%;
+}
+
+.location-time {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #807f7f;
+  margin: 0% 2% 2% 20%;
+  margin-top: 0%;
+}
+.location-vehicle-logos {
+  height: 17.625px;
+  width: 17.25px;
+  border-radius: 0px;
+  margin: 8% 2% 2% 25%;
+}
+.location-vehicle-details {
+  font-size: 12px;
+  line-height: 18px;
+  padding-left: 18%;
+  letter-spacing: 0.04em;
+  color: #000000;
+  margin-top: -5%;
+}
+
+.view-detail-btn {
+  height: 56px;
+  width: 183px;
+  left: 116px;
+  top: 1402px;
+  border-radius: 16px;
+  background: #ffffff;
+  border: 1px solid #1a8279;
+  border-radius: 16px;
+  margin-left: 15%;
+}
+
+.edit-detail-btn {
+  height: 56px;
+  width: 83px;
+  left: 315px;
+  top: 1402px;
+  border-radius: 16px;
+  background: #ffffff;
+  border: 1px solid #1a8279;
+  border-radius: 16px;
+  margin-left: 5%;
+}
+
+.ticket-btn {
+  height: 56px;
+  width: 170px;
+  left: 16px;
+  top: 378px;
+  border-radius: 8px;
+  background-color: #1a8279;
+  color: #ffffff;
+  align-items: center;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  margin-left: 3%;
+}
+
+.hotel-btn {
+  height: 56px;
+  width: 174px;
+  left: 202px;
+  top: 378px;
+  border-radius: 8px;
+  padding: 18px, 16px, 18px, 16px;
+  background: #ffffff;
+  color: #1a8279;
+  border: 2px solid #1a8279;
+  border-radius: 8px;
+  align-items: center;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  margin-left: 3%;
+}
+
+.ticket-card {
+  height: 283px;
+  width: 382px;
+  left: 0px;
+  top: 0px;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.16);
+  border-radius: 16px;
+  border: 1px solid rgb(238, 211, 211);
+  margin: auto;
+  margin-top: 3%;
+}
+.ticket-card-img {
+  height: 145px;
+  width: 381px;
+  left: 0px;
+  top: 0px;
+  border-radius: 16px;
+}
+
+.ticket-price {
+  height: 42px;
+  width: 76px;
+  left: 290px;
+  border-radius: 8px;
+  padding: 8px, 8px, 4px, 8px;
+  top: 76.68%;
+  bottom: 8.48%;
+  background: #be6565;
+  border-radius: 8px;
+  color: #ffffff;
+  margin: 3% 0% 0% 68%;
+}
+
+.hotel-card-name {
+  height: 30px;
+  width: 288px;
+  left: 16px;
+  margin: 0% 0% 0% 3%;
+  top: 140px;
+  border-radius: nullpx;
+  font-weight: 550;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+
+.hotel-card-Rate {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 2% 0% 0 4%;
+  height: 30px;
+  width: 13px;
+  left: 332px;
+  top: 152px;
+  border-radius: nullpx;
+  font-weight: 550;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+
+.hotel-card-star-logo {
+  margin: 4% 0% 0 1%;
+  height: 15.878701210021973px;
+  width: 16.00165843963623px;
+  left: 1.5009765625px;
+  top: 1.55859375px;
+  border-radius: 0px;
+  font-size: 20px;
+}
+
+.hotel-price {
+  height: 42px;
+  width: 76px;
+  left: 290px;
+  border-radius: 8px;
+  padding: 8px, 8px, 4px, 8px;
+  top: 76.68%;
+  bottom: 8.48%;
+  background: #be6565;
+  border-radius: 8px;
+  color: #ffffff;
+  margin: 4% 0% 0% 53%;
+}
+
+.hotel-details {
+  height: 20px;
+  width: 61px;
+  left: 16px;
+  top: 221px;
+  border-radius: nullpx;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #000000;
+  margin: 7% 0% 0% 4%;
+}
+
+.payment-description-div {
+  margin-top: 4%;
+}
+.payment-for {
+  margin: 3% 0% 1% 3%;
+  width: 50%;
+  height: 30px;
+  left: 19px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+  color: #807f7f;
+}
+
+.payment-price {
+  margin: 3% 0% 1% 28%;
+  font-size: 21px;
+  font-weight: normal;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.payment-total {
+  width: 206px;
+  height: 33px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  margin: 10% 0% 1% 3%;
+  font-size: 22px;
+  line-height: 33px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.total-payment-price {
+  margin: 10% 0% 1% 28%;
+  font-size: 21px;
+  font-weight: normal;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.paypal-payment-btn {
+  width: 382px;
+  height: 56px;
+  left: 16px;
+  top: 696px;
+  background: #ffffff;
+  border: 2px solid #1a8279;
+  box-shadow: 0px 1px 8px rgba(73, 73, 73, 0.24);
+  border-radius: 16px;
+  margin: 15% auto;
+}
+
+.align-center {
+  margin: 5% auto;
+  width: 60%;
+  height: 20px;
+  align-items: center;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  color: #1a8279;
+}
+
+.paypal-logo {
+  width: 18px;
+  height: 18px;
+  left: 0px;
+  top: 1px;
+  margin: 10% auto;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  color: #1a8279;
+  margin: 0% 3% 0% 3%;
+}
+
+.paypal-logo path {
+  fill: rgb(253, 253, 253);
+}
+
+.start-logo {
+  margin: 0% auto 0% 3%;
+  width: 18px;
+  height: 18px;
+  left: 190px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  color: #1a8279;
+  top: 1px;
+}
+
+.google-payment-btn {
+  width: 382px;
+  height: 56px;
+  background: #1a8279;
+  box-shadow: 0px 1px 8px rgba(73, 73, 73, 0.24);
+  border-radius: 16px;
+  margin: -5% auto;
+  border: 1px solid #1a8279;
+}
+
+.google-text {
+  color: #ffffff;
+  margin-top: 2%;
+  border: 1px solid #1a8279;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.main {
+  position: absolute;
+  width: 382px;
+  height: 806px;
+  left: calc(50% - 382px / 2);
+  top: calc(50% - 806px / 2 + 21px);
+  background: #ffffff;
+  box-shadow: 0px 1.49219px 4.47656px rgba(0, 0, 0, 0.1),
+    0px 1.49219px 2.98438px rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
+  border: 1px solid black;
+}
+
+.loading-title {
+  position: absolute;
+  width: 315px;
+  height: 36px;
+  left: 134px;
+  top: 347px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+.loading-description {
+  position: absolute;
+  width: 348px;
+  height: 60px;
+  left: 17px;
+  top: 350px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #807f7f;
+}
+
+.loading-center {
+  position: absolute;
+  width: 13px;
+  height: 70px;
+  left: 138px;
+  top: 499px;
+}
+
+.payment-title {
+  position: absolute;
+  width: 245px;
+  height: 36px;
+  left: 69px;
+  top: 300px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.about-btn {
+  position: absolute;
+  width: 358px;
+  height: 56px;
+  left: 28px;
+  top: 408px;
+  background: #ffffff;
+  border: 2px solid #1a8279;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.bodys {
+  position: absolute;
+  width: 414px;
+  height: 602px;
+  left: 0px;
+  top: 237px;
+  background: #ffffff;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.about-btn {
+  position: absolute;
+  width: 358px;
+  height: 56px;
+  left: 28px;
+  top: 258px;
+  background: #ffffff;
+  border: 2px solid #1a8279;
+  box-sizing: border-box;
+  border-radius: 16px;
+  font-size: 18px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+}
+
+.reservations-btn {
+  position: absolute;
+  width: 358px;
+  height: 56px;
+  left: 28px;
+  top: 350px;
+  background: #ffffff;
+  border: 2px solid #1a8279;
+  box-sizing: border-box;
+  border-radius: 16px;
+  font-size: 18px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+}
+
+.DayToDayPlan-btn {
+  position: absolute;
+  width: 358px;
+  height: 56px;
+  left: 28px;
+  top: 434px;
+  background: #1a8279;
+  font-size: 18px;
+  border-radius: 16px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+}
+
+.dashed-div {
+  position: absolute;
+  width: 382px;
+  height: 134px;
+  left: 16px;
+  top: 98px;
+  background: #ffffff;
+  border: 2px dashed #505050;
+  border-radius: 16px;
+}
+
+.dashed-div-text {
+  position: absolute;
+  width: 283px;
+  height: 28px;
+  left: 50px;
+  top: 50px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  color: #505050;
+}
+
+.pick-plan-btn {
+  position: absolute;
+  width: 358px;
+  height: 56px;
+  left: 28px;
+  top: 270px;
+  background: #ffffff;
+  border: 2px solid #1a8279;
+  box-sizing: border-box;
+  border-radius: 16px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #1a8279;
+}
+
+.create-plan-btn {
+  position: absolute;
+  width: 358px;
+  height: 56px;
+  left: 28px;
+  top: 350px;
+  background: #1a8279;
+  border-radius: 16px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.past-trip-title {
+  position: absolute;
+  width: 117px;
+  height: 36px;
+  left: 16px;
+  top: 440px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.nav-bar {
+  position: absolute;
+  width: 410px;
+  height: 80px;
+  left: 0px;
+  top: 500px;
+  background: #ffffff;
+  box-shadow: 0px -2px 32px rgba(98, 153, 132, 0.16);
+  border: 1px solid black;
+}
+
+.nav-bar-icon {
+  width: 70px;
+  height: 65px;
+  border: 1px solid black;
+  border-radius: 16px;
+  margin-left: 6%;
+  margin-top: 2%;
+  padding: auto;
+}
+
+.home-logo {
+  margin: 13% 0% 0% 25%;
+}
+.icon-title {
+  margin: -10% 0% 0% 16%;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #505050;
+}
+
+.trip-icon-title {
+  margin: -10% 0% 0% 6%;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #505050;
+}
+
+.content-title {
+  position: absolute;
+  width: 415px;
+  height: 40px;
+  left: 14px;
+  top: 147px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.fill-title-1 {
+  position: absolute;
+  left: 3%;
+  width: 90%;
+  right: 62.3%;
+  top: 10.15%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+
+.logo-div {
+  position: absolute;
+  height: 56px;
+  width: 56px;
+  left: 3%;
+  right: 85.34%;
+  top: 19%;
+  bottom: 0%;
+  background: #1a8279;
+  border-radius: 16px 0px 0px 16px;
+}
+
+.Text-logo {
+  height: 20px;
+  width: 20px;
+  border-radius: 0px;
+  position: absolute;
+  left: 28.33%;
+  right: 8.33%;
+  top: 28.5%;
+  bottom: 8.33%;
+}
+
+.name-input-box {
+  height: 56px;
+  width: 335px;
+  position: absolute;
+  left: 16%;
+  right: 0%;
+  top: 19%;
+  bottom: 0%;
+  background: rgba(36, 163, 153, 0.08);
+  box-sizing: border-box;
+  border-radius: 0px 16px 16px 0px;
+  border-color: rgba(36, 163, 153, 0.08);
+  outline: none;
+  border: 1px solid #2d9457;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  color: #000000;
+  font-weight: 500;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.fill-title-2 {
+  position: absolute;
+  left: 3%;
+  right: 56.81%;
+  top: 30%;
+  bottom: 84.38%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+
+.fill-title-3 {
+  position: absolute;
+  left: 3%;
+  right: 56.81%;
+  top: 48%;
+  width: fit-content;
+  bottom: 84.38%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+
+.pickupdate-title-4 {
+  position: absolute;
+  left: 3%;
+  right: 61.52%;
+  top: 56%;
+  bottom: 78.26%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+
+.logo-div-2 {
+  position: absolute;
+  height: 56px;
+  width: 56px;
+  left: 3%;
+  right: 85.34%;
+  top: 37%;
+  bottom: 0%;
+  background: #1a8279;
+  border-radius: 16px 0px 0px 16px;
+}
+
+.logo-div-3 {
+  position: absolute;
+  height: 56px;
+  width: 56px;
+  left: 3%;
+  right: 85.34%;
+  top: 63%;
+  bottom: 0%;
+  background: #1a8279;
+  border-radius: 16px 0px 0px 16px;
+}
+
+.logo-div-4 {
+  position: absolute;
+  height: 56px;
+  width: 56px;
+  left: 3%;
+  right: 85.34%;
+  top: 85%;
+  bottom: 0%;
+  background: #1a8279;
+  border-radius: 16px 0px 0px 16px;
+}
+
+.photo-logo {
+  height: 20px;
+  width: 20px;
+  border-radius: 0px;
+  position: absolute;
+  left: 28.33%;
+  right: 8.33%;
+  top: 28.5%;
+  bottom: 8.33%;
+}
+
+.calender-logo {
+  height: 20px;
+  width: 20px;
+  border-radius: 0px;
+  position: absolute;
+  left: 28.33%;
+  right: 8.33%;
+  top: 28.5%;
+  bottom: 8.33%;
+}
+
+.wallet-logo {
+  height: 20px;
+  width: 20px;
+  border-radius: 0px;
+  position: absolute;
+  left: 28.33%;
+  right: 8.33%;
+  top: 28.5%;
+  bottom: 8.33%;
+}
+
+.destination-input-box {
+  height: 56px;
+  width: 335px;
+  position: absolute;
+  left: 16%;
+  right: 0%;
+  top: 37%;
+  bottom: 0%;
+  background: rgba(36, 163, 153, 0.08);
+  box-sizing: border-box;
+  border-radius: 0px 16px 16px 0px;
+  border-color: rgba(36, 163, 153, 0.08);
+  outline: none;
+  border: 1px solid #2d9457;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  color: #000000;
+  font-weight: 500;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.date-input-box {
+  height: 56px;
+  width: 335px;
+  position: absolute;
+  left: 16%;
+  right: 0%;
+  top: 63%;
+  bottom: 0%;
+  background: rgba(36, 163, 153, 0.08);
+  box-sizing: border-box;
+  border-radius: 0px 16px 16px 0px;
+  border-color: rgba(36, 163, 153, 0.08);
+  outline: none;
+  border: 1px solid #2d9457;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  color: #000000;
+  font-weight: 500;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.budget-selection-box {
+  height: 56px;
+  width: 335px;
+  position: absolute;
+  left: 16%;
+  right: 0%;
+  top: 85%;
+  bottom: 0%;
+  background: rgba(36, 163, 153, 0.08);
+  box-sizing: border-box;
+  border-radius: 0px 16px 16px 0px;
+  border-color: rgba(36, 163, 153, 0.08);
+  outline: none;
+  border: 1px solid #2d9457;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  color: #000000;
+  font-weight: 500;
+  align-items: center;
+  padding-left: 15px;
+}
+
+/* there is a problem in dropdown box */
+.budget-selection-box::content {
+  height: 56px;
+  width: 25px;
+  position: absolute;
+  left: 16%;
+  right: 0%;
+  top: 85%;
+  bottom: 0%;
+  background: rgba(36, 163, 153, 0.08);
+  box-sizing: border-box;
+  border-radius: 0px 16px 16px 0px;
+  border-color: rgba(36, 163, 153, 0.08);
+  outline: none;
+  border: 1px solid #2d9457;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  color: #000000;
+  font-weight: 500;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.continue {
+  position: absolute;
+  width: 382px;
+  height: 56px;
+  left: 3%;
+  top: 74%;
+  background: #acd2cf;
+  box-shadow: 0px 1px 8px rgba(73, 73, 73, 0.24);
+  border-radius: 16px;
+  color: #ffffff;
+}

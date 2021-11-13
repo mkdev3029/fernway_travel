@@ -1,0 +1,53 @@
+.pay_img {
+  position: absolute;
+  width: 308px;
+  height: 308px;
+  left: 37px;
+  top: 32px;
+}
+
+.pay_h3 {
+  position: absolute;
+  width: 245px;
+  height: 36px;
+  left: 69px;
+  top: 347px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+.pay_para {
+  position: absolute;
+  width: 348px;
+  height: 56px;
+  left: 17px;
+  top: 399px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #807f7f;
+}
+.cls {
+  position: absolute;
+  width: 200px;
+  height: 20px;
+  left: 96px;
+  top: 500px;
+  right: 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #1a8279;
+}

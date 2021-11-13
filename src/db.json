@@ -1,0 +1,708 @@
+{
+  "categories": [
+    {
+      "image_url": "https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+      "text": "Mountain"
+    },
+    {
+      "image_url": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=768&q=80",
+      "text": "Beach"
+    },
+    {
+      "image_url": "https://images.unsplash.com/photo-1587102100712-6c7ae6b6da53?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "text": "Forest"
+    },
+    {
+      "image_url": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1244&q=80",
+      "text": "Cities"
+    }
+  ],
+  "destination": [
+    {
+      "image_url": "https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2017/06/Bhrigu-Lake-Trek.jpg",
+      "location": "Burwa, Manali",
+      "state": "Himachal Pradesh",
+      "weather": [
+        "air",
+        "snow"
+      ],
+      "temperature": "10",
+      "safety_rating": "88",
+      "description": "Manali is a high-altitude Himalayan resort town in India’snorthern Himachal Pradesh state. It has a reputation as a backpacking center and honeymoon destination. Set on the Beas River, it’s a gateway for skiing in the Solang Valley and trekking in Parvati Valley. It's also a jumping-off point for paragliding, rafting and mountaineering in the Pir Panjal mountains, home to 4,000m-high Rohtang Pass.",
+      "attractions": [
+        {
+          "id": 1,
+          "title": "Solang Valley",
+          "location": "Burwa, Manali",
+          "star": 4,
+          "timing": "8am - 6pm, everyday",
+          "entryFee": "1500",
+          "image": "https://images.thrillophilia.com/image/upload/s--R_5p2jln--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/195/455/original/1596181106_solang.jpg.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Kullu",
+          "location": "Burwa, Manali",
+          "star": 5,
+          "timing": "8am - 6pm, everyday",
+          "entryFee": "2500",
+          "image": "https://images.thrillophilia.com/image/upload/s--JkN2SGaO--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/175/399/original/1596180543_abhishek-donda-cGbd2jZvSvA-unsplash.jpg.jpg"
+        }
+      ],
+      "packages": [
+        {
+          "image_url": "https://images.unsplash.com/photo-1568207182762-8838beec7dca?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2647&q=80",
+          "name": "Retreat to Manali",
+          "days": 4,
+          "route": "Solang valley - Van Vihar - Kufli - Pandoha Dam",
+          "rating": 4,
+          "transport": [
+            "Train",
+            "Hostel",
+            "Car"
+          ],
+          "price": 4200
+        }
+      ]
+    },
+    {
+      "image_url": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+      "location": "Goa, India",
+      "state": "Goa",
+      "weather": [
+        "air"
+      ],
+      "temperature": "31",
+      "safety_rating": "88",
+      "description": "Goa is a part of the coastal country known as the Konkan, which is an escarpment rising up to the Western Ghats range of mountains, which separate it from the Deccan Plateau. The highest point is the Sonsogor, with an altitude of 1,167 metres (3,829 ft). Goa has a coastline of 160 km (99 mi).",
+      "attractions": [
+        {
+          "id": 2,
+          "title": "Rohtang Pass",
+          "location": "Goa, India",
+          "star": 3,
+          "timing": "8am - 6pm, everyday",
+          "entryFee": "2500",
+          "image": "https://images.thrillophilia.com/image/upload/s--Q9nzEkog--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/195/451/original/1596180466_md-javed-akhtar-PrLNjOy9Ot4-unsplash.jpg.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Kullu",
+          "location": "Burwa, Manali",
+          "star": 5,
+          "timing": "8am - 6pm, everyday",
+          "entryFee": "2500",
+          "image": "https://images.thrillophilia.com/image/upload/s--JkN2SGaO--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/175/399/original/1596180543_abhishek-donda-cGbd2jZvSvA-unsplash.jpg.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Shimla",
+          "location": "Goa, India",
+          "star": 5,
+          "timing": "8am - 6pm, everyday",
+          "entryFee": "3500",
+          "image": "https://images.thrillophilia.com/image/upload/s--PxUAaVqw--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/175/397/original/1596180593_akhil-verma-MTHDC2LrYJI-unsplash.jpg.jpg"
+        },
+        {
+          "id": 5,
+          "title": "Hampta Pass",
+          "location": "Goa, India",
+          "star": 2,
+          "timing": "8am - 6pm, everyday",
+          "entryFee": "5500",
+          "image": "https://images.thrillophilia.com/image/upload/s--zmgijM4A--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/175/404/original/1596180873_hampta3_%281%29.jpg.jpg"
+        }
+      ],
+      "packages": [
+        {
+          "image_url": "https://images.unsplash.com/photo-1568207182762-8838beec7dca?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2647&q=80",
+          "name": "Retreat to Goa",
+          "days": 4,
+          "route": "Solang valley - Van Vihar - Kufli - Pandoha Dam",
+          "rating": 4,
+          "transport": [
+            "Train",
+            "Hostel",
+            "Car"
+          ],
+          "price": 4200
+        }
+      ]
+    }
+  ],
+  "data": [
+    {
+      "img": "https://images.squarespace-cdn.com/content/v1/5e8b1f691d67271d039dc4b5/1592418568116-5PFAOFX0OYE5R84ELK5K/sunlit-mountain-range-kimon-maritz-jl2T_E4tUyo-unsplash.jpg?format=2500w",
+      "text": "Mountain",
+      "textcls": "bottom-left1",
+      "selectcls": "cls1",
+      "id": 1,
+      "func": "select1"
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1564419320461-6870880221ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80",
+      "text": "Beach",
+      "textcls": "bottom-left2",
+      "selectcls": "cls2",
+      "id": 2,
+      "func": "select2"
+    },
+    {
+      "img": "https://d32ogoqmya1dw8.cloudfront.net/images/ASCN/transforming_institutions/2021/info/base_camps/forest_imat-bagja-gumilar-jwtvcqqjxh0-unsplash.v5.jpg",
+      "text": "Forest",
+      "textcls": "bottom-left3",
+      "selectcls": "cls3",
+      "id": 3,
+      "func": "select3"
+    },
+    {
+      "img": "https://businessnes.com/wp-content/uploads/2019/11/jonas-jacobsson-d2dbqAIX6Ws-unsplash-980x653.jpg",
+      "text": "Town",
+      "textcls": "bottom-left4",
+      "selectcls": "cls4",
+      "id": 4,
+      "func": "select4"
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1522276280767-ce4a7715cf46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "text": "Culture",
+      "textcls": "bottom-left5",
+      "selectcls": "cls5",
+      "id": 5,
+      "func": "select5"
+    },
+    {
+      "img": "https://machinelearningmastery.com/wp-content/uploads/2021/08/federico-di-dio-photography-Q4g0Q-eVVEg-unsplash-1024x683.jpg",
+      "text": "History",
+      "textcls": "bottom-left6",
+      "selectcls": "cls6",
+      "id": 6,
+      "func": "select6"
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+      "text": "Nature",
+      "textcls": "bottom-left7",
+      "selectcls": "cls7",
+      "id": 7,
+      "func": "select7"
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1542359649-31e03cd4d909?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80",
+      "text": "Adventure",
+      "textcls": "bottom-left8",
+      "selectcls": "cls8",
+      "id": 8,
+      "func": "select8"
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1481070555726-e2fe8357725c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=435&q=80",
+      "text": "Food",
+      "textcls": "bottom-left9",
+      "selectcls": "cls9",
+      "id": 9,
+      "func": "select9"
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1545063914-a1a6ec821c88?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+      "text": "Wildlife",
+      "textcls": "bottom-left10",
+      "selectcls": "cls10",
+      "id": 10,
+      "func": "select10"
+    }
+  ],
+  "attraction-to-visit": [
+    {
+      "id": 1,
+      "title": "Solang Valley",
+      "location": "Burwa, Manali",
+      "star": 4,
+      "timing": "8am - 6pm, everyday",
+      "entryFee": "1500",
+      "image": "https://images.thrillophilia.com/image/upload/s--R_5p2jln--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/195/455/original/1596181106_solang.jpg.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Rohtang Pass",
+      "location": "Goa, India",
+      "star": 3,
+      "timing": "8am - 6pm, everyday",
+      "entryFee": "2500",
+      "image": "https://images.thrillophilia.com/image/upload/s--Q9nzEkog--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/195/451/original/1596180466_md-javed-akhtar-PrLNjOy9Ot4-unsplash.jpg.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Kullu",
+      "location": "Burwa, Manali",
+      "star": 5,
+      "timing": "8am - 6pm, everyday",
+      "entryFee": "2500",
+      "image": "https://images.thrillophilia.com/image/upload/s--JkN2SGaO--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/175/399/original/1596180543_abhishek-donda-cGbd2jZvSvA-unsplash.jpg.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Shimla",
+      "location": "Goa, India",
+      "star": 5,
+      "timing": "8am - 6pm, everyday",
+      "entryFee": "3500",
+      "image": "https://images.thrillophilia.com/image/upload/s--PxUAaVqw--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/175/397/original/1596180593_akhil-verma-MTHDC2LrYJI-unsplash.jpg.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Hampta Pass",
+      "location": "Goa, India",
+      "star": 2,
+      "timing": "8am - 6pm, everyday",
+      "entryFee": "5500",
+      "image": "https://images.thrillophilia.com/image/upload/s--zmgijM4A--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/175/404/original/1596180873_hampta3_%281%29.jpg.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Munnar",
+      "location": "Kerla, India",
+      "star": 2,
+      "timing": "8am - 6pm, everyday",
+      "entryFee": "5500",
+      "image": "data:image/jpeg;base64,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"
+    }
+  ],
+  "try-Activities": [
+    {
+      "id": 1,
+      "title": "Experience Paragliding",
+      "location": "Burwa, Manali",
+      "star": 4,
+      "timing": "8am - 6pm, everyday",
+      "entryFee": "1500",
+      "image": "https://images.thrillophilia.com/image/upload/s--JKVEBq_e--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/128/240/original/1526545396_shutterstock_633164246.jpg.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Visit Hidimba Devi Temple",
+      "location": "Burwa, Manali",
+      "star": 5,
+      "timing": "8am - 6pm, everyday",
+      "entryFee": "None",
+      "image": "https://images.thrillophilia.com/image/upload/s--EP-406yL--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/078/637/original/1550124727_shutterstock_1087070939.jpg.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Rafting",
+      "location": "Kerla, India",
+      "star": 5,
+      "timing": "8am - 6pm, everyday",
+      "entryFee": "1000",
+      "image": "https://images.thrillophilia.com/image/upload/s--r12Wq6pF--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/078/628/original/1526551971_shutterstock_574828768.jpg.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Head to Rohtang Pass",
+      "location": "Goa, India",
+      "star": 5,
+      "timing": "8am - 6pm, everyday",
+      "entryFee": "none",
+      "image": "https://images.thrillophilia.com/image/upload/s--BXYNWeHX--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/128/241/original/1526545535_1526483098_shutterstock_783141427.jpg.jpg.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Stroll at Mall Road",
+      "location": "Goa, India",
+      "star": 2,
+      "timing": "8am - 6pm, everyday",
+      "entryFee": "None",
+      "image": "https://images.thrillophilia.com/image/upload/s--VAOQlD3F--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/173/873/original/1596521353_1596177577_shutterstock-1047879634.jpg.jpg.jpg"
+    }
+  ],
+  "places-to-live": [
+    {
+      "id": 1,
+      "title": " Hadimba Temple",
+      "location": "Burwa, Manali",
+      "star": 4,
+      "type": "hotel",
+      "entryFee": "1500",
+      "image": "https://www.fabhotels.com/blog/wp-content/uploads/2019/03/Hadimba-Temple.jpg"
+    },
+    {
+      "id": 2,
+      "title": "SK Temple",
+      "location": "Kerla, India",
+      "star": 5,
+      "type": "hostel",
+      "entryFee": "500",
+      "image": "https://www.fabhotels.com/blog/wp-content/uploads/2019/03/Museum-of-Himachal-Culture-and-Folk-Art.jpg"
+    },
+    {
+      "id": 3,
+      "title": "old manali",
+      "location": "Burwa, Manali",
+      "star": 5,
+      "type": "dorms",
+      "entryFee": "1000",
+      "image": "https://www.fabhotels.com/blog/wp-content/uploads/2019/03/Old-Manali.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Naggar Castel",
+      "location": "Burwa, Manali",
+      "star": 5,
+      "type": "hotel",
+      "entryFee": "900",
+      "image": "https://www.fabhotels.com/blog/wp-content/uploads/2019/03/Naggar-Castle.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Stroll at Mall Road",
+      "location": "Goa, India",
+      "star": 2,
+      "type": "hostel",
+      "entryFee": "500",
+      "image": "https://www.fabhotels.com/blog/wp-content/uploads/2019/03/Old-Manali.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Mall Road",
+      "location": "Goa, India",
+      "star": 2,
+      "type": "dorms",
+      "entryFee": "600",
+      "image": "https://www.fabhotels.com/blog/wp-content/uploads/2019/03/The-Manali-Gompa.jpg"
+    }
+  ],
+  "Foods": [
+    {
+      "id": 1,
+      "title": "Chicken Makhani ",
+      "location": "Burwa, Manali",
+      "star": 4,
+      "type": "Indian | Italian | chinese",
+      "entryFee": "500",
+      "image": "https://www.blueosa.com/wp-content/uploads/2020/07/butter-chicken-Chicken-Makhani.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Samosas",
+      "location": "Goa, India",
+      "star": 5,
+      "type": "Indian | Italian",
+      "entryFee": "100",
+      "image": "https://www.blueosa.com/wp-content/uploads/2020/07/top-10-indian-dishes-samosas.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Aloo Gobi",
+      "location": "Kerla, India",
+      "star": 5,
+      "type": "Indian,Italian",
+      "entryFee": "1000",
+      "image": "https://www.blueosa.com/wp-content/uploads/2020/07/Indian-Cauliflower-Potatoe.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Matar Paneer",
+      "location": "Burwa, Manali",
+      "star": 5,
+      "type": "Indian,Italian",
+      "entryFee": "500",
+      "image": "https://www.blueosa.com/wp-content/uploads/2020/07/Matar-Paneer-Peas-and-Cooked-Cottage-Cheese.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Rogan Josh",
+      "location": "Kerla, India",
+      "star": 2,
+      "type": "Indian,Italian",
+      "entryFee": "None",
+      "image": "https://www.blueosa.com/wp-content/uploads/2020/07/curried-meat-Indian-dshes.jpg"
+    }
+  ],
+  "location": [
+    {
+      "id": 1,
+      "title": "Manali",
+      "locations": "Burwa, Manali",
+      "safe": 85,
+      "tempreture": 10,
+      "vaccinated": 78,
+      "fullDetails": "Manali is a high-altitude Himalayan resort town in India’s northern Himachal Pradesh state. It has a reputation as a ba...."
+    },
+    {
+      "id": 2,
+      "title": "Goa",
+      "locations": "Goa, India",
+      "safe": 75,
+      "tempreture": 25,
+      "vaccinated": 98,
+      "fullDetails": "East meets West in this sun-soaked state, where Indian culture intertwines with Portuguese influences left over from a 500-year occupation. The beaches have long served as a magnet for serene hedonists. To the north, the tourist-centric scene is"
+    },
+    {
+      "id": 3,
+      "title": "Kerala",
+      "locations": "Kerla, India",
+      "safe": 55,
+      "tempreture": 33,
+      "vaccinated": 55,
+      "fullDetails": "To all the nature lovers out there. A trip to God’s own country is a must in your twenties for its enchanting wilderness. Luscious green trees, pristine water, crazy wildlife experience – visit Kerala for more such wonderful delights."
+    }
+  ],
+  "includedAttraction": [
+    {
+      "id": 1,
+      "title": "Solang Valley",
+      "location": "Burwa, Manali",
+      "star": 5,
+      "image": "https://images.thrillophilia.com/image/upload/s--R_5p2jln--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/195/455/original/1596181106_solang.jpg.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Kullu",
+      "location": "Burwa, Manali",
+      "star": 5,
+      "image": "https://images.thrillophilia.com/image/upload/s--PxUAaVqw--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/175/397/original/1596180593_akhil-verma-MTHDC2LrYJI-unsplash.jpg.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Hampta Pass",
+      "location": "Kerla, India",
+      "star": 2,
+      "image": "https://images.thrillophilia.com/image/upload/s--zmgijM4A--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/175/404/original/1596180873_hampta3_%281%29.jpg.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Jhonsan Valley",
+      "location": "Goa, India",
+      "star": 5,
+      "image": "https://images.thrillophilia.com/image/upload/s--R_5p2jln--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/195/455/original/1596181106_solang.jpg.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Juhu Beach",
+      "location": "Goa, India",
+      "star": 5,
+      "image": "https://images.thrillophilia.com/image/upload/s--PxUAaVqw--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/175/397/original/1596180593_akhil-verma-MTHDC2LrYJI-unsplash.jpg.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Devka Beach",
+      "location": "Goa, India",
+      "star": 2,
+      "image": "https://images.thrillophilia.com/image/upload/s--zmgijM4A--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/175/404/original/1596180873_hampta3_%281%29.jpg.jpg"
+    }
+  ],
+  "includedActivities": [
+    {
+      "id": 1,
+      "title": "Paragliding",
+      "location": "Burwa, Manali",
+      "star": 4,
+      "image": "https://images.thrillophilia.com/image/upload/s--JKVEBq_e--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/128/240/original/1526545396_shutterstock_633164246.jpg.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Rafting",
+      "location": "Kerla, India",
+      "star": 5,
+      "image": "https://images.thrillophilia.com/image/upload/s--r12Wq6pF--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/078/628/original/1526551971_shutterstock_574828768.jpg.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Boating",
+      "location": "Goa, India",
+      "star": 5,
+      "image": "https://media.istockphoto.com/photos/rendering-of-lng-tanker-sailing-in-sea-at-night-picture-id1317779408?b=1&k=20&m=1317779408&s=170667a&w=0&h=w6opHukzcZfp0f092BMg8AGReJtp8JAugur6d3tTd2U="
+    }
+  ],
+  "includedLivePlace": [
+    {
+      "id": 1,
+      "title": " Hadimba Temple",
+      "location": "Burwa, Manali",
+      "star": 4,
+      "type": "hotel",
+      "image": "https://www.fabhotels.com/blog/wp-content/uploads/2019/03/Hadimba-Temple.jpg",
+      "rates": 500
+    },
+    {
+      "id": 2,
+      "title": " Deltin Hotel",
+      "location": "Goa, India",
+      "star": 4,
+      "type": "hotel",
+      "image": "https://media.istockphoto.com/photos/downtown-cleveland-hotel-entrance-and-waiting-taxi-cab-picture-id472899538?b=1&k=20&m=472899538&s=170667a&w=0&h=oGDM26vWKgcKA3ARp2da-H4St2dMEhJg23TTBeJgPDE=",
+      "rates": 500
+    },
+    {
+      "id": 3,
+      "title": " ship Hotel",
+      "location": "Kerla, India",
+      "star": 4,
+      "type": "hotel",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeCwXWJ_qiSt9YznhZ1hk5CrOKNQerE9RnJw&usqp=CAU",
+      "rates": 500
+    }
+  ],
+  "reservation": [
+    {
+      "id": 1,
+      "route_to": "Burwa, Manali",
+      "pickupLocation": "Location 1",
+      "pickupTime": "6:30 am",
+      "dropLocation": "Location 2",
+      "dropTime": "2:30 pm",
+      "types": "Train Ticket",
+      "rates": "255",
+      "image": "https://images.unsplash.com/photo-1442570468985-f63ed5de9086?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8dHJhaW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 2,
+      "pickupLocation": "Location 2",
+      "route_to": "Burwa, Manali",
+      "pickupTime": "6:30 am",
+      "dropLocation": "Location 3",
+      "dropTime": "2:30 pm",
+      "types": "Car Ticket",
+      "rates": "255",
+      "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YnVzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 3,
+      "pickupLocation": "Location 3",
+      "pickupTime": "6:30 am",
+      "route_to": "Burwa, Manali",
+      "dropLocation": "Final Destination",
+      "dropTime": "2:30 pm",
+      "types": "Bus Ticket",
+      "rates": "255",
+      "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YnVzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 4,
+      "title": " Hadimba Temple",
+      "route_to": "Burwa, Manali",
+      "star": 4,
+      "types": "hostel Booking",
+      "image": "https://www.fabhotels.com/blog/wp-content/uploads/2019/03/Hadimba-Temple.jpg",
+      "rates": 500
+    },
+    {
+      "id": 5,
+      "title": " Margoa",
+      "route_to": "Goa, India",
+      "star": 4,
+      "types": "hostel Booking",
+      "image": "https://www.fabhotels.com/blog/wp-content/uploads/2019/03/Hadimba-Temple.jpg",
+      "rates": 700
+    },
+    {
+      "id": 6,
+      "pickupLocation": "Location 3",
+      "pickupTime": "6:30 am",
+      "route_to": "Goa, India",
+      "dropLocation": "Final Destination",
+      "dropTime": "2:30 pm",
+      "types": "Bus Ticket",
+      "rates": "400",
+      "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YnVzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    }
+  ],
+  "register": [
+    {
+      "name": "Madanakrishnan",
+      "email": "madanakrishnan.i@gmail.com",
+      "phone": "9790605954",
+      "id": "1636777615765"
+    },
+    {
+      "name": "John",
+      "email": "Smith",
+      "phone": "98716453",
+      "id": "1636778227225"
+    },
+    {
+      "name": "",
+      "email": "",
+      "phone": "",
+      "id": "1636795194063"
+    },
+    {
+      "name": "",
+      "email": "",
+      "phone": "",
+      "id": "1636798709440"
+    },
+    {
+      "name": "",
+      "email": "",
+      "phone": "",
+      "id": "1636798769375"
+    },
+    {
+      "name": "",
+      "email": "",
+      "phone": "",
+      "id": "1636801241567"
+    },
+    {
+      "name": "",
+      "email": "",
+      "phone": "",
+      "id": "1636801353503"
+    },
+    {
+      "name": "",
+      "email": "",
+      "phone": "",
+      "id": "1636807861712"
+    },
+    {
+      "name": "John",
+      "email": "Smith",
+      "phone": "987643523",
+      "id": "1636808224355"
+    },
+    {
+      "name": "",
+      "email": "",
+      "phone": "",
+      "id": "1636809761962"
+    },
+    {
+      "name": "John Smit",
+      "email": "john@gmail.com",
+      "phone": "593876435",
+      "id": "1636811166524"
+    },
+    {
+      "name": "",
+      "email": "",
+      "phone": "",
+      "id": "1636811472152"
+    },
+    {
+      "name": "John Smith",
+      "email": "john@gmail.com",
+      "phone": "3546466547",
+      "id": "1636812008487"
+    },
+    {
+      "name": "",
+      "email": "",
+      "phone": "",
+      "id": "1636813355631"
+    },
+    {
+      "name": "John Smith",
+      "email": "john@gmail.com",
+      "phone": "3456467",
+      "id": "1636813738972"
+    },
+    {
+      "name": "John Smirth",
+      "email": "john@gmail.com",
+      "phone": "54643256",
+      "id": "1636814396119"
+    }
+  ]
+}

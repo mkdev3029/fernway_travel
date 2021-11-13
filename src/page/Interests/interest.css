@@ -1,0 +1,248 @@
+.sk {
+  width: 41px;
+  font-weight: 600;
+  float: right;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  font-family: Poppins;
+}
+.prev {
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 4%;
+}
+.bottom-left1 {
+  position: absolute;
+  top: 29%;
+  left: 6.5%;
+  font-family: Poppins;
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.bottom-left2 {
+  position: absolute;
+  top: 29%;
+  left: 56%;
+  color: white;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.bottom-left3 {
+  position: absolute;
+  top: 47%;
+  left: 6%;
+  color: white;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.bottom-left4 {
+  position: absolute;
+  top: 47%;
+  left: 56%;
+  color: white;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.bottom-left5 {
+  position: absolute;
+  top: 66%;
+  left: 6%;
+  color: white;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.bottom-left6 {
+  position: absolute;
+  top: 66%;
+  left: 56%;
+  color: white;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.bottom-left7 {
+  position: absolute;
+  top: 85%;
+  left: 6%;
+  color: white;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.bottom-left8 {
+  position: absolute;
+  top: 85%;
+  left: 56%;
+  color: white;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.bottom-left9 {
+  position: absolute;
+  top: 103.5%;
+  left: 5.5%;
+  color: white;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.bottom-left10 {
+  position: absolute;
+  top: 103.5%;
+  left: 56%;
+  color: white;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.h {
+  width: 313px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  margin-left: 5%;
+  font-family: Poppins;
+  margin-top: 6%;
+}
+.sele {
+  width: 238px;
+  height: 0;
+  font-size: 20px;
+  margin-left: 5%;
+  font-family: Poppins;
+}
+.cart-img {
+  margin-left: 2%;
+  margin-top: 0%;
+}
+.cat {
+  width: 183px;
+  height: 156px;
+  margin-left: 3%;
+  margin-top: 3%;
+  float: left;
+  border-radius: 16px;
+}
+.cls1 {
+  position: absolute;
+  top: 29%;
+  left: 40%;
+  display: none;
+}
+.cls2 {
+  position: absolute;
+  top: 29%;
+  left: 86%;
+  display: none;
+}
+.cls3 {
+  position: absolute;
+  top: 47%;
+  left: 40%;
+  display: none;
+}
+.cls4 {
+  position: absolute;
+  top: 47%;
+  left: 85%;
+  display: none;
+}
+.cls5 {
+  position: absolute;
+  top: 65%;
+  left: 40%;
+  display: none;
+}
+.cls6 {
+  position: absolute;
+  top: 65%;
+  left: 85%;
+  display: none;
+}
+.cls7 {
+  position: absolute;
+  top: 84%;
+  left: 40%;
+  display: none;
+}
+.cls8 {
+  position: absolute;
+  top: 84%;
+  left: 85%;
+  display: none;
+}
+.cls9 {
+  position: absolute;
+  top: 103%;
+  left: 40%;
+  display: none;
+}
+.cls10 {
+  position: absolute;
+  top: 103%;
+  left: 85%;
+  display: none;
+}
+.btn {
+  border: none;
+  position: fixed;
+  width: 382px;
+  height: 56px;
+  left: 16px;
+  top: 700px;
+  background: #acd2cf;
+  box-shadow: 0px 1px 8px rgba(73, 73, 73, 0.24);
+  border-radius: 16px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 40px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  -ms-flex-align: center;
+  color: #ffffff;
+}
+
+.top {
+  margin-top: 0%;
+  float: left;
+  margin-left: 35%;
+}
+.top1 {
+  margin-top: 2%;
+  margin-left: 1%;
+  float: left;
+}
