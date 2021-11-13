@@ -17,7 +17,7 @@ https://github.com/madanakrishnanmasai/fernway_travel
 
 ## Authors Information:
 - Sandipan Chakraborty
-- MadanaKrishnan
+- MadanaKrishnan https://github.com/madanakrishnanmasai
 - Shihab Shaikh
 - Rahul Kharche
 - Shaista Sulthana  https://github.com/shaista78
