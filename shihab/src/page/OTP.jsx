@@ -10,7 +10,7 @@ const OTP = () => {
     return (
         <div className='header'>
             <p className="verification-title">OTP Verification</p>
-            <p className="otp-desc">Please enter the 4 digit verification code sent to +91 8777551294</p>
+            <p className="otp-desc">Please enter the 4 digit verification code 1234 and click on continue</p>
 
             <div className="center">
 
