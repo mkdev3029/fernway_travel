@@ -1,20 +1,22 @@
 import "./interest.css";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import req from "../../util/request";
+// import req from "../../util/request";
+import db from "../../db.json";
 
 const Interest = () => {
   const [data, setData] = useState([]);
   const [count, setIsCount] = useState(1);
 
-  const getData = async () => {
-    req.get("/data").then((response) => {
-      const out = response.data;
-      setData(out);
-    });
-  };
+  // const getData = async () => {
+  //   req.get("/data").then((response) => {
+  //     const out = response.data;
+  //     setData(out);
+  //   });
+  // };
   useEffect(() => {
-    getData();
+    // getData();
+    setData(db.data);
   }, []);
 
   const select1 = (e) => {
