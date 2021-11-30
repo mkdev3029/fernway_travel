@@ -3,24 +3,26 @@ import "../components/styles/home.css";
 import Navbar from "../components/Navbar/Navbar";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router";
-import axios from "axios";
+// import axios from "axios";
+import db from "../db.json";
 
 const PickTourPlan = () => {
   const para = useParams();
   console.log("Picktourplan", para);
 
-  const [locations, setLocations] = useState([]);
+  // const [locations, setLocations] = useState([]);
 
   useEffect(() => {
-    axios
-      .get("http://localhost:3004/location", {
-        params: {
-          locations: para.locations, //mention location here
-        },
-      })
-      .then(({ data }) => {
-        setLocations([...data]);
-      });
+    // setLocations(db["location"]);
+    // axios
+    //   .get("http://localhost:3004/location", {
+    //     params: {
+    //       locations: para.locations, //mention location here
+    //     },
+    //   })
+    //   .then(({ data }) => {
+    //     setLocations([...data]);
+    //   });
   }, []);
   const showCurrentTrip = () => {
     return (
@@ -30,15 +32,13 @@ const PickTourPlan = () => {
           <div
             className="trip-container_mk"
             style={{
-              backgroundImage: `url("https://s3-alpha-sig.figma.com/img/7f2f/25be/8cfda7bebbdf510f00111c2d7f3999f9?Expires=1637539200&Signature=hSqLMtG-qghaRQ4YTqMfi6LS-ao8f4IE9wwnLvDIDXgI7eaVXpwjX8sA7ANcI4AyT-Q49EEAQ29IDDeQMhF2ewbC~75ZqcyUvYQSXJOw9POtE9tIfo04NFkr9qFp7gJLWDZESCcimwEe9QI~uWAqOlUBxfYPxGNm-Yg-FYWF~~korhASGXB6ZVy~b9emRZ8bQg-XEs4J922oCDoaX1c-j77GQg5UUoJiLIUrK5RphiWeSFv0eUfF359jCcf-0XkcZ31zevcBvKp73oD9IrDC7FwplEylsvQcmErqTXEl0EJ~6hXBV8U~jhNe3gHbpQLyvrACnd1yPiazJb4kqePQjg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA")`,
+              backgroundImage: `url("https://upload.wikimedia.org/wikipedia/commons/0/03/Manali_City.jpg")`,
             }}
           ></div>
-          {locations.map((el) => (
-            <>
-              <p className="trip_title">{el.title}</p>
-              <p className="trip_date">18th Nov - 20th Nov</p>
-            </>
-          ))}
+          <div>
+            <p className="trip_title">Manali</p>
+            <p className="trip_date">18th Nov - 20th Nov</p>
+          </div>
         </div>
         <div className="current-trip_mk">
           <h1>Past Trip</h1>

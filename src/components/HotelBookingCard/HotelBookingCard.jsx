@@ -2,8 +2,9 @@ import location from "../card/images/location.svg";
 import star from "../card/images/star.svg";
 import "../styles/style.css";
 import { useEffect, useState } from "react";
-import axios from "axios";
+// import axios from "axios";
 import { useParams } from "react-router";
+import db from "../../db.json";
 
 const HotelBookingCard = () => {
   const para = useParams();
@@ -12,16 +13,17 @@ const HotelBookingCard = () => {
   const [list, setList] = useState([]);
 
   useEffect(() => {
-    axios
-      .get("http://localhost:3004/reservation", {
-        params: {
-          route_to: para.locations,
-          types: ["hostel Booking", "hotel Booking", "drom Booking"], //mention location here
-        },
-      })
-      .then(({ data }) => {
-        setList([...data]);
-      });
+    setList(...db["reservation"]);
+    // axios
+    //   .get("http://localhost:3004/reservation", {
+    //     params: {
+    //       route_to: para.locations,
+    //       types: ["hostel Booking", "hotel Booking", "drom Booking"], //mention location here
+    //     },
+    //   })
+    //   .then(({ data }) => {
+    //     setList([...data]);
+    //   });
   }, []);
 
   return (

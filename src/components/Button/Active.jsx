@@ -15,9 +15,10 @@ import seeMore from "./icons/seeMore.svg";
 import seeMores from "./icons/seeMores.svg";
 import Card from "../card/Card";
 import ActivitiesCard2 from "../ActivitiesCard/ActivitiesCard2";
-import axios from "axios";
+// import axios from "axios";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router";
+import db from "../../db.json";
 
 const Active = () => {
   const [activate, setActivate] = useState("");
@@ -65,21 +66,23 @@ const Active = () => {
   };
 
   function getAllData() {
-    axios.get("http://localhost:3004/places-to-live").then(({ data }) => {
-      setList([...data]);
-    });
+    setList([...db["places-to-live"]]);
+    // axios.get("http://localhost:3004/places-to-live").then(({ data }) => {
+    //   setList([...data]);
+    // });
   }
 
   function getSpecificData(value) {
-    axios
-      .get("http://localhost:3004/places-to-live", {
-        params: {
-          type: value, //mention location here
-        },
-      })
-      .then(({ data }) => {
-        setList([...data]);
-      });
+    setList([...db["places-to-live"]]);
+    // axios
+    //   .get("http://localhost:3004/places-to-live", {
+    //     params: {
+    //       type: value, //mention location here
+    //     },
+    //   })
+    //   .then(({ data }) => {
+    //     setList([...data]);
+    //   });
   }
   const filterShow = () => {
     getAllData();
@@ -181,15 +184,16 @@ const Active = () => {
   };
 
   useEffect(() => {
-    axios
-      .get("http://localhost:3004/location", {
-        params: {
-          locations: para.location, //mention location here
-        },
-      })
-      .then(({ data }) => {
-        setLocations([...data]);
-      });
+    setLocations([...db["location"]]);
+    // axios
+    //   .get("http://localhost:3004/location", {
+    //     params: {
+    //       locations: para.location, //mention location here
+    //     },
+    //   })
+    //   .then(({ data }) => {
+    //     setLocations([...data]);
+    //   });
   }, []);
 
   return (

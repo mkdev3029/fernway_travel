@@ -1,6 +1,7 @@
 // import train from '../icon/Train.svg';
 import { useEffect, useState } from "react";
-import axios from "axios";
+// import axios from "axios";
+import db from "../../db.json";
 import { useParams } from "react-router";
 
 const TicketBooking = () => {
@@ -10,25 +11,26 @@ const TicketBooking = () => {
   const [locations, setLocations] = useState([]);
 
   useEffect(() => {
-    axios
-      .get("http://localhost:3004/reservation", {
-        params: {
-          types: ["Bus Ticket", "Car Ticket", "Train Ticket"], //mention location here
-        },
-      })
-      .then(({ data }) => {
-        setList([...data]);
-      });
-
-    axios
-      .get("http://localhost:3004/location", {
-        params: {
-          route_to: para.locations, //mention location here
-        },
-      })
-      .then(({ data }) => {
-        setLocations([...data]);
-      });
+    setList([...db["reservation"]]);
+    // axios
+    //   .get("http://localhost:3004/reservation", {
+    //     params: {
+    //       types: ["Bus Ticket", "Car Ticket", "Train Ticket"], //mention location here
+    //     },
+    //   })
+    //   .then(({ data }) => {
+    //     setList([...data]);
+    //   });
+    setLocations([...db["location"]]);
+    // axios
+    //   .get("http://localhost:3004/location", {
+    //     params: {
+    //       route_to: para.locations, //mention location here
+    //     },
+    //   })
+    //   .then(({ data }) => {
+    //     setLocations([...data]);
+    //   });
   }, []);
 
   return (

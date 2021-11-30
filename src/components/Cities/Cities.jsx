@@ -1,22 +1,24 @@
 import React, { useState, useEffect } from "react";
 import Icon from "../Icon_jsx/Icon";
-import req from "../../util/request";
+// import req from "../../util/request";
 import { Link } from "react-router-dom";
+import db from "../../db.json";
 
 const Cities = () => {
   const [dataArr, setDataArr] = useState([]);
   useEffect(() => {
-    getData();
+    setDataArr(db["destination"]);
+    // getData();
   }, []);
 
-  const getData = async () => {
-    try {
-      const { data } = await req.get("/destination");
-      setDataArr(data);
-    } catch (err) {
-      console.log("err", err);
-    }
-  };
+  // const getData = async () => {
+  //   try {
+  //     const { data } = await req.get("/destination");
+  //     setDataArr(data);
+  //   } catch (err) {
+  //     console.log("err", err);
+  //   }
+  // };
   return (
     <>
       <div className="cities_mk">

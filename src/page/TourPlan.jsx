@@ -6,7 +6,8 @@ import AttractionCard from "../components/IncludedAttractionCards/AttractionCard
 import ActivitiesCard from "../components/IncludedAttractionCards/ActivitiesCard";
 import HotelCards from "../components/IncludedAttractionCards/HotelCards";
 import { useEffect, useState } from "react";
-import axios from "axios";
+// import axios from "axios";
+import db from "../db.json";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router";
 
@@ -28,45 +29,47 @@ const TourPlan = () => {
 
   // setList([...data])
   useEffect(() => {
-    axios
-      .get("http://localhost:3004/includedAttraction", {
-        params: {
-          location: para.locations, //mention location here
-        },
-      })
-      .then(({ data }) => {
-        setList([...data]);
-      });
+    setList([...db["includedAttraction"]]);
+    // axios
+    //   .get("http://localhost:3004/includedAttraction", {
+    //     params: {
+    //       location: para.locations, //mention location here
+    //     },
+    //   })
+    //   .then(({ data }) => {
+    //     setList([...data]);
+    //   });
     //    setHotelList([...data])
-    axios
-      .get("http://localhost:3004/includedActivities", {
-        params: {
-          location: para.locations, //mention location here
-        },
-      })
-      .then(({ data }) => {
-        setActivitiesList([...data]);
-      });
-
-    axios
-      .get("http://localhost:3004/includedLivePlace", {
-        params: {
-          location: para.locations, //mention location here
-        },
-      })
-      .then(({ data }) => {
-        setHotelList([...data]);
-      });
-
-    axios
-      .get("http://localhost:3004/location", {
-        params: {
-          locations: para.locations, //mention location here
-        },
-      })
-      .then(({ data }) => {
-        setLocations([...data]);
-      });
+    setActivitiesList([...db["includedActivities"]]);
+    // axios
+    //   .get("http://localhost:3004/includedActivities", {
+    //     params: {
+    //       location: para.locations, //mention location here
+    //     },
+    //   })
+    //   .then(({ data }) => {
+    //     setActivitiesList([...data]);
+    //   });
+    setHotelList([...db["includedLivePlace"]]);
+    // axios
+    //   .get("http://localhost:3004/includedLivePlace", {
+    //     params: {
+    //       location: para.locations, //mention location here
+    //     },
+    //   })
+    //   .then(({ data }) => {
+    //     setHotelList([...data]);
+    //   });
+    setLocations([...db["location"]]);
+    // axios
+    //   .get("http://localhost:3004/location", {
+    //     params: {
+    //       locations: para.locations, //mention location here
+    //     },
+    //   })
+    //   .then(({ data }) => {
+    //     setLocations([...data]);
+    //   });
   }, []);
 
   return (

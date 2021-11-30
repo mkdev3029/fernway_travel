@@ -2,7 +2,8 @@ import React from "react";
 import "../components/styles/home.css";
 import { useParams } from "react-router";
 import { useEffect, useState } from "react";
-import axios from "axios";
+// import axios from "axios";
+import db from "../db.json";
 import { Link } from "react-router-dom";
 
 const Dtodplan = () => {
@@ -12,15 +13,16 @@ const Dtodplan = () => {
   const [locations, setLocations] = useState([]);
 
   useEffect(() => {
-    axios
-      .get("http://localhost:3004/location", {
-        params: {
-          locations: para.locations, //mention location here
-        },
-      })
-      .then(({ data }) => {
-        setLocations([...data]);
-      });
+    setLocations([...db["location"]]);
+    // axios
+    //   .get("http://localhost:3004/location", {
+    //     params: {
+    //       locations: para.locations, //mention location here
+    //     },
+    //   })
+    //   .then(({ data }) => {
+    //     setLocations([...data]);
+    //   });
   }, []);
   return (
     <>

@@ -5,7 +5,8 @@ import DayToPlanCard from "../components/DayToPlanCard/DayToPlanCard";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router";
 import { useEffect, useState } from "react";
-import axios from "axios";
+// import axios from "axios";
+import db from "../db.json";
 
 const TourPlan2 = () => {
   const para = useParams();
@@ -28,15 +29,16 @@ const TourPlan2 = () => {
   const [locations, setLocations] = useState([]);
 
   useEffect(() => {
-    axios
-      .get("http://localhost:3004/location", {
-        params: {
-          locations: para.locations, //mention location here
-        },
-      })
-      .then(({ data }) => {
-        setLocations([...data]);
-      });
+    setLocations([...db["location"]]);
+    // axios
+    //   .get("http://localhost:3004/location", {
+    //     params: {
+    //       locations: para.locations, //mention location here
+    //     },
+    //   })
+    //   .then(({ data }) => {
+    //     setLocations([...data]);
+    //   });
   }, []);
 
   return (

@@ -2,21 +2,23 @@ import location from "../card/images/location.svg";
 import star from "../card/images/star.svg";
 import "../styles/style.css";
 import { useEffect, useState } from "react";
-import axios from "axios";
+// import axios from "axios";
+import db from "../../db.json";
 
 const ActivitiesCard2 = ({ Fetchlocation }) => {
   const [list, setList] = useState([]);
 
   useEffect(() => {
-    axios
-      .get("http://localhost:3004/try-Activities", {
-        params: {
-          location: Fetchlocation, //mention location here
-        },
-      })
-      .then(({ data }) => {
-        setList([...data]);
-      });
+    setList([...db["try-Activities"]]);
+    // axios
+    //   .get("http://localhost:3004/try-Activities", {
+    //     params: {
+    //       location: Fetchlocation, //mention location here
+    //     },
+    //   })
+    //   .then(({ data }) => {
+    //     setList([...data]);
+    //   });
   }, []);
 
   return (

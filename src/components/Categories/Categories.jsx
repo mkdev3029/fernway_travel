@@ -1,22 +1,24 @@
 import React, { useState, useEffect } from "react";
 import "../styles/home.css";
-import req from "../../util/request";
+// import req from "../../util/request";
+import db from "../../db.json";
 
 const Categories = () => {
   const [dataArr, setDataArr] = useState([]);
 
   useEffect(() => {
-    getData();
+    setDataArr([...db["categories"]]);
+    // getData();
   }, []);
 
-  const getData = async () => {
-    try {
-      const { data } = await req.get("/categories");
-      setDataArr(data);
-    } catch (err) {
-      console.log("err", err);
-    }
-  };
+  // const getData = async () => {
+  // try {
+  //   const { data } = await req.get("/categories");
+  //   setDataArr(data);
+  // } catch (err) {
+  //   console.log("err", err);
+  // }
+  // };
 
   return (
     <>

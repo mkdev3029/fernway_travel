@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "../components/Navbar/Navbar";
 import "../components/styles/home.css";
-import req from "../util/request";
+// import req from "../util/request";
+import db from "../db.json";
 import Icon from "../components/Icon_jsx/Icon";
 import { Link } from "react-router-dom";
 
@@ -11,17 +12,18 @@ const PickTourPlan2 = () => {
   const [searchText, setSearchText] = useState("");
 
   useEffect(() => {
-    getData();
+    setDataArr(db["destination"]);
+    // getData();
   }, []);
 
-  const getData = async () => {
-    try {
-      const { data } = await req.get("/destination");
-      setDataArr(data);
-    } catch (err) {
-      console.log("err", err);
-    }
-  };
+  // const getData = async () => {
+  //   try {
+  //     const { data } = await req.get("/destination");
+  //     setDataArr(data);
+  //   } catch (err) {
+  //     console.log("err", err);
+  //   }
+  // };
 
   const handleChange = (e) => {
     setText(e.target.value);

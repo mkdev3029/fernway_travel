@@ -3,7 +3,8 @@ import paypal from "../components/icon/paypal.svg";
 import Start from "../components/icon/Start.svg";
 import google from "../components/icon/google.svg";
 import { useEffect, useState } from "react";
-import axios from "axios";
+// import axios from "axios";
+import db from "../db.json";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router";
 
@@ -24,25 +25,26 @@ const Payment = () => {
   const [locations, setLocations] = useState([]);
 
   useEffect(() => {
-    axios
-      .get("http://localhost:3004/reservation", {
-        params: {
-          route_to: para.locations, //mention location here
-        },
-      })
-      .then(({ data }) => {
-        setList([...data]);
-      });
-
-    axios
-      .get("http://localhost:3004/location", {
-        params: {
-          locations: para.locations, //mention location here
-        },
-      })
-      .then(({ data }) => {
-        setLocations([...data]);
-      });
+    setList([...db["reservation"]]);
+    // axios
+    //   .get("http://localhost:3004/reservation", {
+    //     params: {
+    //       route_to: para.locations, //mention location here
+    //     },
+    //   })
+    //   .then(({ data }) => {
+    //     setList([...data]);
+    //   });
+    setLocations([...db["location"]]);
+    // axios
+    //   .get("http://localhost:3004/location", {
+    //     params: {
+    //       locations: para.locations, //mention location here
+    //     },
+    //   })
+    //   .then(({ data }) => {
+    //     setLocations([...data]);
+    //   });
   }, []);
 
   return (
