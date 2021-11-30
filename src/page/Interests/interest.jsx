@@ -1,22 +1,17 @@
 import "./interest.css";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-// import req from "../../util/request";
-import axios from "axios";
-import { JSON_API } from "../../constants/Constants";
+import req from "../../util/request";
 
 const Interest = () => {
   const [data, setData] = useState([]);
   const [count, setIsCount] = useState(1);
 
   const getData = async () => {
-    const response = await axios.get(`${JSON_API}/data`);
-    const out = response.data;
-    setData(out);
-    // req.get("/data").then((response) => {
-    //   const out = response.data;
-    //   setData(out);
-    // });
+    req.get("/data").then((response) => {
+      const out = response.data;
+      setData(out);
+    });
   };
   useEffect(() => {
     getData();
